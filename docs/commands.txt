@@ -1,0 +1,14 @@
+python -m streamlit run dashboard.py
+
+python -X utf8 main.py > run_output.txt
+
+Get-Item .\run_output.txt | Select-Object Length, LastWriteTime
+
+> Get-Content .\run_output.txt -Tail 50      
+
+
+.\build_dashboard.bat
+cd I:\saffron_nmr\dist\SaffronNMRDashboard
+.\SaffronNMRDashboard.exe
+
+tree /F /A > structure.txt
