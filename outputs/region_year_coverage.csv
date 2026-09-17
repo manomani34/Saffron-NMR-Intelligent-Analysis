@@ -1,0 +1,12 @@
+Group,N,N_1394,N_1404,Has_1394,Has_1404,Both_Years
+G1,3,2,1,True,True,True
+G10,2,0,2,False,True,False
+G11,2,0,2,False,True,False
+G2,5,1,4,True,True,True
+G3,4,2,2,True,True,True
+G4,7,1,6,True,True,True
+G5,4,1,3,True,True,True
+G6,10,6,4,True,True,True
+G7,2,2,0,True,False,False
+G8,2,1,1,True,True,True
+G9,2,2,0,True,False,False

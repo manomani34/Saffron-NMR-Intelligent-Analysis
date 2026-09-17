@@ -1,0 +1,39 @@
+{
+  "analysis": {
+    "name": "Artificial Color Signal Analysis",
+    "region": {
+      "lower_ppm": 5.0,
+      "upper_ppm": 9.0
+    },
+    "sample_count": 25,
+    "confirmed_real_saffron": 2,
+    "known_artificial_color": 23,
+    "excluded_samples": 2
+  },
+  "metrics": {
+    "observed_centroid_distance": 18.443372006596338,
+    "null_mean": 38.5899281371236,
+    "null_std": 21.77277695342236,
+    "permutation_z_score": -0.925309443697788,
+    "permutation_p_value": 0.816591704147926,
+    "permutations": 2000
+  },
+  "decision": {
+    "status": "no_clear_signal",
+    "alpha": 0.05
+  },
+  "pca": {
+    "components": 10,
+    "pc1_explained_percent": 36.77454178436811,
+    "pc2_explained_percent": 18.250651358520592,
+    "cumulative_explained_percent": 97.81937104470786
+  },
+  "artifacts": {
+    "pca_scores": "reports\\color_signal_analysis\\signal_pca_scores.csv",
+    "top_discriminating_ppm": "reports\\color_signal_analysis\\top_discriminating_ppm.csv",
+    "pca_plot": "reports\\color_signal_analysis\\signal_pca.png",
+    "permutation_plot": "reports\\color_signal_analysis\\permutation_test.png",
+    "analysis_samples": "reports\\color_signal_analysis\\analysis_samples.csv"
+  },
+  "dashboard_ready": true
+}

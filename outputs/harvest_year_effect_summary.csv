@@ -1,0 +1,2 @@
+﻿YearPredictionBalancedAccuracy,YearPredictionMacroF1,YearPredictionAccuracy,ChanceBalancedAccuracy,WithinRegionPermutationPValue,CommonRegions,SamplesIncludedWithinRegion,Interpretation
+0.7111666666666667,0.6921310911310912,0.7208333333333334,0.5,0.17041479260369816,7,35,EVIDENCE OF A POSSIBLE HARVEST-YEAR EFFECT: at least one independent diagnostic indicates year-related spectral structure.

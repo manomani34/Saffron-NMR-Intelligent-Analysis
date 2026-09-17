@@ -1,0 +1,28 @@
+﻿number,name,true_artificial_color,predicted_artificial_color,probability_artificial_color,correct
+1,sunset yellow(127),1,1,1.0,True
+2,orange 2,1,1,1.0,True
+3,Amuranth,1,1,0.9605422051177278,True
+4,Azorubin,1,1,1.0,True
+5,Quinoline yellow,1,1,0.999999582302058,True
+6,Ponceau 4R (96),1,0,2.8437458687296477e-15,False
+7,Erythrosin,1,1,0.969679497750412,True
+8,Orange GG,1,1,1.0,True
+9,Tartarazin,1,1,1.0,True
+10,saffron + sunset yellow(127),1,1,0.9844729395590361,True
+11,saffron + orange GG,1,1,0.9963734246820146,True
+12,saffron + Quinoline yellow,1,0,0.30414085231331783,False
+13,saffron + orange 2,1,1,0.959632265095995,True
+14,saffron + Ponceau 4R (96),1,1,0.7094778901312583,True
+15,saffron + Erythrosin,1,1,0.8177929380441987,True
+16,saffron + orange 2,1,1,0.9963734246820146,True
+17,saffron,0,1,0.9969192058789602,False
+18,650,0,1,0.7151179673521337,False
+19,651,0,1,0.9994245527023184,False
+20,saffron + Quinoline yellow 10 %,1,0,0.3140623443801366,False
+21,saffron 2,0,0,0.3959333477770832,True
+22,445,1,0,0.2784411259819653,False
+23,372,1,0,0.39440813465192026,False
+24,544,1,0,0.47896173875313147,False
+25,647,1,1,0.5642374821451046,True
+26,648,1,0,0.19606061231783026,False
+27,646,1,0,0.277086978731268,False

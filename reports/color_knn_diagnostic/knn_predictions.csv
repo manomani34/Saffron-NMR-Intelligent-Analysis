@@ -1,0 +1,28 @@
+﻿number,name,class,true_artificial_color,predicted_artificial_color,nearest_distance,correct
+1,sunset yellow(127),pure_artificial_color,1,1,655.2540290766991,True
+2,orange 2,pure_artificial_color,1,1,1168.3287185826916,True
+3,Amuranth,pure_artificial_color,1,1,57.870060712297985,True
+4,Azorubin,pure_artificial_color,1,1,864.1319566895268,True
+5,Quinoline yellow,pure_artificial_color,1,1,48.52631202443496,True
+6,Ponceau 4R (96),pure_artificial_color,1,1,508.9335014932493,True
+7,Erythrosin,pure_artificial_color,1,1,60.51648473989572,True
+8,Orange GG,pure_artificial_color,1,1,214.40048269335605,True
+9,Tartarazin,pure_artificial_color,1,1,885.6269608304314,True
+10,saffron + sunset yellow(127),saffron_plus_artificial_color,1,1,26.506952986852575,True
+11,saffron + orange GG,saffron_plus_artificial_color,1,1,,True
+12,saffron + Quinoline yellow,saffron_plus_artificial_color,1,1,2.1532791315723108,True
+13,saffron + orange 2,saffron_plus_artificial_color,1,1,41.80307675575247,True
+14,saffron + Ponceau 4R (96),saffron_plus_artificial_color,1,1,24.01332791728796,True
+15,saffron + Erythrosin,saffron_plus_artificial_color,1,1,13.497001718345734,True
+16,saffron + orange 2,saffron_plus_artificial_color,1,1,,True
+17,saffron,real_saffron,0,1,22.725963135003393,False
+18,650,unknown_adulterated_saffron,0,1,19.872920990256382,False
+19,651,unknown_adulterated_saffron,0,1,17.265112378333463,False
+20,saffron + Quinoline yellow 10 %,saffron_plus_artificial_color,1,1,2.151514365772429,True
+21,saffron 2,real_saffron,0,1,5.401966481080815,False
+22,445,artificial_color_adulterated_saffron,1,1,8.65219917910576,True
+23,372,artificial_color_adulterated_saffron,1,1,4.7867825094977485,True
+24,544,artificial_saffron,1,1,4.786018642214664,True
+25,647,small_amount_artificial_color,1,1,10.274672949169702,True
+26,648,small_amount_artificial_color,1,1,8.642700125252283,True
+27,646,small_amount_artificial_color,1,1,9.118374038284054,True

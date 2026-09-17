@@ -1,0 +1,37 @@
+{
+  "analysis": {
+    "name": "Color Exploratory Analysis",
+    "region": {
+      "lower_ppm": 5.0,
+      "upper_ppm": 9.0
+    },
+    "method": "SNV + PCA + effect profiling",
+    "purpose": "Exploratory signal assessment",
+    "predictive_model": false
+  },
+  "samples": {
+    "total": 27,
+    "real_saffron": 2,
+    "pure_artificial_color": 9,
+    "saffron_plus_color_5_percent": 7,
+    "saffron_plus_color_10_percent": 1,
+    "known_artificial_adulteration": 6,
+    "unknown_adulteration": 2
+  },
+  "pca": {
+    "pc1_explained_percent": 36.19480605504539,
+    "pc2_explained_percent": 13.573414234619182,
+    "components": 10
+  },
+  "limitations": [
+    "Only two confirmed real-saffron reference samples are available.",
+    "This analysis is exploratory and is not a validated classifier.",
+    "Unknown adulteration samples are kept separate from known artificial-color samples."
+  ],
+  "artifacts": {
+    "snv_pca_scores": "reports\\color_exploratory\\snv_pca_scores.csv",
+    "snv_pca_plot": "reports\\color_exploratory\\snv_pca.png",
+    "distance_to_real_saffron": "reports\\color_exploratory\\distance_to_real_saffron.csv"
+  },
+  "dashboard_ready": true
+}

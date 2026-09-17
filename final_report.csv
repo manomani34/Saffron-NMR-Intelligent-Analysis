@@ -1,0 +1,64 @@
+﻿Category,Metric,Value
+Dataset,Original Records,44
+Dataset,Independent Samples,43
+Dataset,Spectral Points,9514
+Dataset,Geographic Classes,11
+Dataset,Missing Values,0
+Dataset,Confirmed Duplicate Measurements,1
+Harvest Year,Samples 0,1394
+Harvest Year,Samples 1,1404
+Region-Year Design,Total Regions,11
+Region-Year Design,Regions in 1394,9
+Region-Year Design,Regions in 1404,9
+Region-Year Design,Regions Represented in Both Years,7
+Harvest Year Effect,Cross-Validated Accuracy,0.7208333333333334
+Harvest Year Effect,Cross-Validated Balanced Accuracy,0.7111666666666667
+Harvest Year Effect,Cross-Validated Macro F1,0.6921310911310912
+Harvest Year Effect,Chance Balanced Accuracy,0.5
+Harvest Year Effect,Within-Region Permutation P-Value,0.1704147926036981
+Harvest Year Effect,Interpretation,EVIDENCE OF A POSSIBLE HARVEST-YEAR EFFECT: at least one independent diagnostic indicates year-related spectral structure.
+Origin Model,Selected TopK,50
+Origin Model,Accuracy Mean,0.2023255813953488
+Origin Model,Accuracy Std,0.0459575318217713
+Origin Model,Balanced Accuracy Mean,0.1304004329004328
+Origin Model,Balanced Accuracy Std,0.0353628514438055
+Origin Model,Macro F1 Mean,0.1120222776652409
+Origin Model,Macro F1 Std,0.034093372900591
+Origin Model,Chance Balanced Accuracy,0.0909090909090909
+Origin Model,Above Chance,True
+Origin Model,Operational Status,NOT RELIABLE
+Cross-Year Origin,Best Direction,1404 -> 1394
+Cross-Year Origin,Best Model,XGBoost
+Cross-Year Origin,Best TopK,30
+Cross-Year Origin,Accuracy,0.2142857142857142
+Cross-Year Origin,Balanced Accuracy,0.1904761904761904
+Cross-Year Origin,Macro F1,0.1428571428571428
+Cross-Year Origin,Interpretation,"Weak and highly constrained by small sample size, class imbalance, and incomplete Region × Year coverage."
+Novelty / OOD,Novel Samples,1
+Novelty / OOD,Within Reference Domain,42
+Novelty / OOD,Interpretation,OOD identifies samples outside the reference domain and does not by itself establish adulteration.
+SHAP,Top Feature 1,Window_7.801_7.901_Std (MeanAbsSHAP=0.201669)
+SHAP,Top Feature 2,Window_1.001_1.101_Mean (MeanAbsSHAP=0.151632)
+SHAP,Top Feature 3,Window_10.401_10.501_Std (MeanAbsSHAP=0.135075)
+SHAP,Top Feature 4,Window_7.201_7.301_Std (MeanAbsSHAP=0.127640)
+SHAP,Top Feature 5,Window_5.701_5.801_Std (MeanAbsSHAP=0.114343)
+SHAP,Top Feature 6,Window_2.801_2.901_Mean (MeanAbsSHAP=0.095101)
+SHAP,Top Feature 7,Window_5.201_5.301_Std (MeanAbsSHAP=0.089456)
+SHAP,Top Feature 8,Window_7.201_7.301_Max (MeanAbsSHAP=0.088956)
+SHAP,Top Feature 9,Window_2.701_2.801_Mean (MeanAbsSHAP=0.084431)
+SHAP,Top Feature 10,Window_2.301_2.401_Max (MeanAbsSHAP=0.083544)
+SHAP,Interpretation,SHAP identifies features used by the reference XGBoost model; these are candidate spectral regions and not validated biomarkers.
+Authenticity,Adulteration Assessment,NOT ASSESSED / REQUIRES EXPERT REVIEW
+Authenticity,Reason,The current dataset does not contain sufficient validated adulterated or mixed samples for a reliable classifier.
+Decision Engine,Total Samples,43
+Decision Engine,Novel / OOD Candidates,1
+Decision Engine,WITHIN REFERENCE DOMAIN - ORIGIN MODEL NOT RELIABLE,42
+Decision Engine,NOVEL / OOD CANDIDATE - EXPERT REVIEW REQUIRED,1
+Final Conclusion,Overall Assessment,"The study successfully establishes a reproducible NMR analysis pipeline for quality control, exploratory geographic discrimination, harvest-year analysis, and novelty/OOD screening."
+Final Conclusion,Geographic Origin,The current dataset does not support an operationally reliable geographic origin classifier.
+Final Conclusion,Harvest Year,"Harvest-year-related spectral structure is detectable, but the current data do not establish a significant independent within-region year effect."
+Final Conclusion,Cross-Year Generalization,Geographic origin transfer between harvest years is weak and strongly limited by the current sample design.
+Final Conclusion,Novelty Detection,One sample was identified as a NOVEL / OOD candidate and should be subjected to expert review.
+Final Conclusion,Adulteration,Adulteration cannot be concluded from the current dataset.
+Final Conclusion,Primary Limitation,"Only 43 independent observations are available across 11 geographic classes, with severe class imbalance and incomplete coverage of regions across harvest years."
+Final Conclusion,Next Data Requirement,"Increase independent samples per region, cover each region across multiple harvest years, and add validated authentic and adulterated/mixed samples with complete sample and acquisition metadata."

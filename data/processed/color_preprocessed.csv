@@ -1,0 +1,28 @@
+﻿row_index,number,name,class,subclass,artificial_color,artificial_color_percent,saffron,adulterated,unknown_adulteration,known_artificial_color
+0,1,sunset yellow(127),pure_artificial_color,sunset_yellow_127,True,100.0,False,False,False,True
+1,2,orange 2,pure_artificial_color,orange_2,True,100.0,False,False,False,True
+2,3,Amuranth,pure_artificial_color,amaranth,True,100.0,False,False,False,True
+3,4,Azorubin,pure_artificial_color,azorubin,True,100.0,False,False,False,True
+4,5,Quinoline yellow,pure_artificial_color,quinoline_yellow,True,100.0,False,False,False,True
+5,6,Ponceau 4R (96),pure_artificial_color,ponceau_4r_96,True,100.0,False,False,False,True
+6,7,Erythrosin,pure_artificial_color,erythrosin,True,100.0,False,False,False,True
+7,8,Orange GG,pure_artificial_color,orange_gg,True,100.0,False,False,False,True
+8,9,Tartarazin,pure_artificial_color,tartrazine,True,100.0,False,False,False,True
+9,10,saffron + sunset yellow(127),saffron_plus_artificial_color,sunset_yellow_127_5_percent,True,5.0,True,True,False,True
+10,11,saffron + orange GG,saffron_plus_artificial_color,orange_gg_5_percent,True,5.0,True,True,False,True
+11,12,saffron + Quinoline yellow,saffron_plus_artificial_color,quinoline_yellow_5_percent,True,5.0,True,True,False,True
+12,13,saffron + orange 2,saffron_plus_artificial_color,orange_2_5_percent,True,5.0,True,True,False,True
+13,14,saffron + Ponceau 4R (96),saffron_plus_artificial_color,ponceau_4r_96_5_percent,True,5.0,True,True,False,True
+14,15,saffron + Erythrosin,saffron_plus_artificial_color,erythrosin_5_percent,True,5.0,True,True,False,True
+15,16,saffron + orange 2,saffron_plus_artificial_color,orange_2_5_percent_replicate,True,5.0,True,True,False,True
+16,17,saffron,real_saffron,real_saffron,False,0.0,True,False,False,False
+17,18,650,unknown_adulterated_saffron,unknown_adulteration_650,False,,True,True,True,False
+18,19,651,unknown_adulterated_saffron,unknown_adulteration_651,False,,True,True,True,False
+19,20,saffron + Quinoline yellow 10 %,saffron_plus_artificial_color,quinoline_yellow_10_percent,True,10.0,True,True,False,True
+20,21,saffron 2,real_saffron,real_saffron_2,False,0.0,True,False,False,False
+21,22,445,artificial_color_adulterated_saffron,azorubin_plus_orange_2,True,,True,True,False,True
+22,23,372,artificial_color_adulterated_saffron,orange_2,True,,True,True,False,True
+23,24,544,artificial_saffron,tartrazine,True,,False,True,False,True
+24,25,647,small_amount_artificial_color,small_amount_color_647,True,,True,True,False,True
+25,26,648,small_amount_artificial_color,small_amount_color_648,True,,True,True,False,True
+26,27,646,small_amount_artificial_color,small_amount_color_646,True,,True,True,False,True

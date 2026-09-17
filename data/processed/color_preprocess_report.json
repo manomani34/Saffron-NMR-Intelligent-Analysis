@@ -1,0 +1,34 @@
+{
+  "input": "data\\processed\\color_labeled.csv",
+  "output": {
+    "X": "data\\processed\\color_X.npy",
+    "ppm": "data\\processed\\color_ppm.npy",
+    "metadata": "data\\processed\\color_preprocessed.csv"
+  },
+  "samples": 27,
+  "spectral_points": {
+    "original": 9617,
+    "removed_solvent": 449,
+    "remaining": 9168
+  },
+  "ppm_range": {
+    "original_min": 0.500998,
+    "original_max": 10.4999,
+    "processed_min": 0.500998,
+    "processed_max": 10.4999
+  },
+  "solvent_region": {
+    "lower_ppm": 4.66797,
+    "upper_ppm": 5.4996,
+    "removed_points": 449
+  },
+  "artificial_color_region": {
+    "lower_ppm": 5.0,
+    "upper_ppm": 9.0,
+    "points": 3501
+  },
+  "X_shape": [
+    27,
+    9168
+  ]
+}
