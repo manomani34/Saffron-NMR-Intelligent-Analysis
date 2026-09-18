@@ -1,0 +1,161 @@
+﻿Model,PLSComponents,Preprocessing,PreprocessingCode,Modality,SampleId,ActualGroup,PredictedGroup,Correct,DecisionMargin,FitType,Warning
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,1,G1,G9,False,0.11018888426293139,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,3,G1,G4,False,0.1994727907665467,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,4,G2,G6,False,0.06543718092137094,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,5,G2,G2,True,0.04849558064692794,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,6,G2,G2,True,0.12127831622148164,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,7,G2,G2,True,0.19558490132192585,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,8,G2,G6,False,0.026846673871223692,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,9,G3,G6,False,0.05645793049258918,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,10,G3,G6,False,0.0628812192179437,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,11,G3,G4,False,0.03249186791139316,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,12,G3,G6,False,0.11428202922488867,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,13,G4,G4,True,0.3221219825503269,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,14,G4,G5,False,0.007268667044515176,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,15,G4,G4,True,0.3069578419458375,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,16,G4,G4,True,0.19381771823725233,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,17,G4,G6,False,0.009218612164112433,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,18,G4,G4,True,0.44380695012772925,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,19,G4,G4,True,0.060655623215831844,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,20,G5,G6,False,0.17347484582767314,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,21,G5,G4,False,0.02149501581669122,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,22,G5,G5,True,0.03479735827208913,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,23,G5,G6,False,0.07039078392618067,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,24,G6,G6,True,0.8919766957894533,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,26,G6,G6,True,0.5005660404198782,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,27,G6,G6,True,0.4125914313374631,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,28,G6,G6,True,0.4084213095702258,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,30,G6,G6,True,0.1914401251493935,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,31,G6,G5,False,0.10619838918781091,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,32,G6,G6,True,0.22609039645754225,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,33,G6,G6,True,0.1476473712056376,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,34,G7,G9,False,0.052546320641708,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,36,G7,G9,False,0.042093416999739175,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,37,G8,G6,False,0.04915573196664452,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,38,G8,G4,False,0.4055290208128615,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,39,G9,G9,True,0.08130749011212962,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,40,G9,G9,True,0.08643134820050258,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,41,G10,G4,False,0.004718199237604609,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,42,G10,G2,False,0.003215128939815348,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,43,G11,G2,False,0.011360063280572263,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,440 nm,44,G11,G6,False,0.02396836388460022,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,1,G1,G9,False,0.06773377827417026,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,3,G1,G4,False,0.594702554861945,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,4,G2,G2,True,0.01090436208732748,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,5,G2,G2,True,0.1991956558997458,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,6,G2,G2,True,0.252203530090973,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,7,G2,G2,True,0.3293160783629375,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,8,G2,G2,True,0.06451976664943299,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,9,G3,G6,False,0.23016084704683998,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,10,G3,G6,False,0.00885679685344809,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,11,G3,G4,False,0.2631333519125069,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,12,G3,G6,False,0.32560376213086034,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,13,G4,G4,True,0.23869395773172705,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,14,G4,G4,True,0.5078652921140441,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,15,G4,G4,True,0.5651438885616036,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,16,G4,G4,True,0.6199471231682029,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,17,G4,G4,True,0.13426746862203404,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,18,G4,G4,True,0.5984509284829203,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,19,G4,G4,True,0.2057695699256689,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,20,G5,G6,False,0.19879454531601498,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,21,G5,G5,True,0.4961636936012161,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,22,G5,G4,False,0.052423385472583905,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,23,G5,G2,False,0.09068200629471634,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,24,G6,G6,True,0.34873623813025123,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,26,G6,G6,True,0.3564196676296457,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,27,G6,G6,True,0.28651351597093516,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,28,G6,G6,True,0.24346615553816098,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,30,G6,G6,True,0.3652911672460267,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,31,G6,G4,False,0.10214696463367362,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,32,G6,G6,True,0.18088114300101937,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,33,G6,G6,True,0.3462862037148041,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,34,G7,G6,False,0.22628322532009104,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,36,G7,G6,False,0.13093424699364456,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,37,G8,G6,False,0.06795222566896417,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,38,G8,G4,False,0.29910209299192314,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,39,G9,G9,True,0.019218737663554142,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,40,G9,G2,False,0.05191385759572903,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,41,G10,G2,False,0.20355023610000406,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,42,G10,G2,False,0.2262320140903426,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,43,G11,G5,False,0.016936355932995917,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,250 nm,44,G11,G2,False,0.06098249385223803,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,1,G1,G4,False,0.07302503138717881,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,3,G1,G4,False,0.3299480489911922,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,4,G2,G2,True,0.039967081877162525,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,5,G2,G2,True,0.007810169208178119,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,6,G2,G2,True,0.09169964954502627,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,7,G2,G2,True,0.07369778062680515,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,8,G2,G2,True,0.009014036473663167,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,9,G3,G3,True,0.3231165238619304,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,10,G3,G3,True,0.36779379215755087,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,11,G3,G4,False,0.07876354380124617,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,12,G3,G2,False,0.04447634597366143,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,13,G4,G4,True,0.29084158935775106,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,14,G4,G4,True,0.26706305774378514,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,15,G4,G4,True,0.3165859559687306,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,16,G4,G4,True,0.33780675480946987,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,17,G4,G4,True,0.08056287547516844,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,18,G4,G4,True,0.5212019859848861,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,19,G4,G4,True,0.10296530003316237,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,20,G5,G3,False,0.28626575310494695,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,21,G5,G4,False,0.08683841015588828,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,22,G5,G2,False,0.05871873375255654,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,23,G5,G2,False,0.022226172522396365,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,24,G6,G6,True,0.7179168095285398,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,26,G6,G6,True,0.4102216497425261,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,27,G6,G6,True,1.1524411855569345,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,28,G6,G6,True,1.0956186608965306,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,30,G6,G6,True,0.06401624501860101,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,31,G6,G4,False,0.03253347500659612,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,32,G6,G6,True,0.030298316861012364,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,33,G6,G6,True,0.09777292508615631,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,34,G7,G9,False,0.02749503435918016,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,36,G7,G9,False,0.07302914618564221,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,37,G8,G9,False,0.04102516305696735,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,38,G8,G4,False,0.4303094481081185,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,39,G9,G9,True,0.09420614167203833,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,40,G9,G9,True,0.09420614167203001,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,41,G10,G4,False,0.047753299554547046,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,42,G10,G2,False,0.02833982619544717,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,43,G11,G2,False,0.05757161121464205,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,308 nm,44,G11,G2,False,0.030028525391366218,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,1,G1,G9,False,0.020898971693953494,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,3,G1,G4,False,0.4951131194557238,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,4,G2,G9,False,0.033086949446614694,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,5,G2,G4,False,0.06573275503525333,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,6,G2,G2,True,0.14286549263795856,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,7,G2,G2,True,0.11173036006491915,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,8,G2,G6,False,0.025470749044545105,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,9,G3,G3,True,0.32093337943520883,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,10,G3,G3,True,0.2467018814833064,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,11,G3,G4,False,0.2761037700286743,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,12,G3,G6,False,0.009840676305684748,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,13,G4,G4,True,0.10257782243731467,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,14,G4,G4,True,0.3523888764608616,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,15,G4,G4,True,0.4772307115664337,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,16,G4,G4,True,0.49290430626228376,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,17,G4,G4,True,0.28385010245846326,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,18,G4,G4,True,0.5389117044380295,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,19,G4,G4,True,0.2990997966460045,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,20,G5,G3,False,0.2483605411510636,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,21,G5,G4,False,0.37541253735870184,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,22,G5,G4,False,0.044905167590656214,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,23,G5,G2,False,0.03149619654110533,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,24,G6,G6,True,0.7551806611757982,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,26,G6,G6,True,0.9993753853333075,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,27,G6,G6,True,1.0761903068400545,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,28,G6,G6,True,0.8790795633716288,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,30,G6,G6,True,0.15802851247573374,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,31,G6,G4,False,0.20075790913593844,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,32,G6,G6,True,0.10085102389267936,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,33,G6,G6,True,0.1672714077328083,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,34,G7,G9,False,0.04216076451963502,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,36,G7,G9,False,0.09330585408086678,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,37,G8,G9,False,0.071774712331792,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,38,G8,G4,False,0.1623569415212403,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,39,G9,G9,True,0.12650227408931913,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,40,G9,G9,True,0.11158691120450753,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,41,G10,G4,False,0.09528365239837211,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,42,G10,G6,False,0.0016219034116583542,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,43,G11,G4,False,0.06642596038390497,Full-data descriptive fit,Not a validation prediction; in-sample fit.
+PLS-DA,4,AsLS + SNV,asls_snv,Combined,44,G11,G2,False,0.05529280266630285,Full-data descriptive fit,Not a validation prediction; in-sample fit.

@@ -1,0 +1,4 @@
+﻿Sheet,Wavelength,MaxRow,MaxColumn,HeaderRow,NumberColumn,GroupColumn,TimeColumns,TimeMin,TimeMax,MedianTimeStep,MergedRangeCount,HiddenRowCount,HiddenColumnCount,FormulaCellsInSignalRegion,FormulaCachedValueCells,FormulaValueDifferenceCells,FreezePanes,AutoFilter
+Crocin 440,440,48,3307,1,3,4,1800,0.01666667,30.0,0.016666999999999987,0,0,0,0,0,0,None,
+picrocrocin 250,250,46,3378,2,3,4,1800,0.01666667,30.0,0.016666999999999987,0,0,0,0,0,0,None,
+safranal 308,308,46,3304,2,3,4,1800,0.01666667,30.0,0.016666999999999987,0,0,0,1801,1801,1801,None,

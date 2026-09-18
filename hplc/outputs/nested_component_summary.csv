@@ -1,0 +1,2 @@
+AccuracyMean,AccuracyStd,BalancedAccuracyMean,BalancedAccuracyStd,MacroF1Mean,MacroF1Std,OuterSplits,MeanSelectedComponents,MedianSelectedComponents
+0.305,0.07320501594135718,0.2179924242424242,0.08219515697355571,0.1603683972780511,0.08416244806631712,40,4.3,4.0

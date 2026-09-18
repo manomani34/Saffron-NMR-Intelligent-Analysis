@@ -1,0 +1,2 @@
+﻿RawSampleIds,ExactDuplicatePairs,ScaledDerivedRelations,ExactDuplicateSamples,DerivedScaledSamples,IndependentSamplesBeforeRelationCleanup,IndependentSamplesAfterRelationCleanup,SamplesWithInvalidSignalCells,TotalInvalidSignalCells
+44,4,4,8,0,44,36,1,1

@@ -1,0 +1,14 @@
+Wavelength,SampleA,SampleB,Relation,Alpha,Residual,Correlation
+250,1,2,ExactDuplicate,1,0,1
+250,24,25,ExactDuplicate,1,0,1
+250,28,29,ExactDuplicate,1,0,1
+250,34,35,ExactDuplicate,1,0,1
+308,1,2,ExactDuplicate,1,0,1
+308,24,25,ExactDuplicate,1,0,1
+308,28,29,ExactDuplicate,1,0,1
+308,34,35,ExactDuplicate,1,0,1
+308,39,40,ScaledCopy,0.53,0,1
+440,1,2,ExactDuplicate,1,0,1
+440,24,25,ExactDuplicate,1,0,1
+440,28,29,ExactDuplicate,1,0,1
+440,34,35,ExactDuplicate,1,0,1

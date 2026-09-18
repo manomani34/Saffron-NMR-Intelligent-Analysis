@@ -1,0 +1,5 @@
+﻿HPLCNumber,SamplePair,MaxAbsDiff_440,MaxAbsDiff_250,MaxAbsDiff_308,ExactAcrossAllWavelengths
+1,1/2,0.0,0.0,0.0,True
+17,24/25,0.0,0.0,0.0,True
+22,28/29,0.0,0.0,0.0,True
+24,34/35,0.0,0.0,0.0,True
