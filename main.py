@@ -62,9 +62,6 @@ def main():
     # --------------------------------------------------
     # 4. Harvest year effect analysis
     # --------------------------------------------------
-    # بررسی اثر سال برداشت قبل از ورود به مدل‌سازی منشأ.
-    # این بخش تشخیصی است و مستقیماً در آموزش مدل منشأ
-    # استفاده نمی‌شود.
 
     analyze_harvest_year_effect(
         X,
@@ -83,9 +80,7 @@ def main():
         metadata,
         output_path="pca_scores.csv",
         plot_path="pca_scores.png",
-        explained_variance_path=(
-            "pca_explained_variance.csv"
-        ),
+        explained_variance_path="pca_explained_variance.csv",
         loadings_path="pca_loadings.csv",
         scree_plot_path="pca_scree_plot.png",
     )
@@ -96,12 +91,8 @@ def main():
 
     run_novelty_detection(
         pca_scores_path="pca_scores.csv",
-        explained_variance_path=(
-            "pca_explained_variance.csv"
-        ),
-        output_path=(
-            "novelty_detection_results.csv"
-        ),
+        explained_variance_path="pca_explained_variance.csv",
+        output_path="novelty_detection_results.csv",
         plot_path="novelty_detection.png",
         confidence_level=0.99,
     )
@@ -110,27 +101,12 @@ def main():
     # 7. Feature engineering
     # --------------------------------------------------
 
-    # این DataFrame همان features اصلی است که قبلاً
-    # در مدل‌های پروژه استفاده می‌شد.
     engineered_features = extract_spectral_features(X)
 
-    # --------------------------------------------------
-    # Create a separate copy ONLY for CSV output
-    # --------------------------------------------------
-
-    engineered_features_output = (
-        engineered_features.copy()
-    )
-
+    engineered_features_output = engineered_features.copy()
     sample_ids = None
 
-    # --------------------------------------------------
-    # Get SampleId from metadata
-    # --------------------------------------------------
-
-    # حالت معمول: metadata به صورت DataFrame
     if hasattr(metadata, "columns"):
-
         for column in [
             "SampleId",
             "sample_id",
@@ -144,9 +120,7 @@ def main():
                 )
                 break
 
-    # حالت metadata به صورت dict
     elif isinstance(metadata, dict):
-
         for column in [
             "SampleId",
             "sample_id",
@@ -156,48 +130,26 @@ def main():
                 sample_ids = metadata[column]
                 break
 
-    # --------------------------------------------------
-    # Validate SampleId
-    # --------------------------------------------------
-
     if sample_ids is None:
         raise ValueError(
             "Could not find SampleId in metadata. "
             "Expected one of: SampleId, sample_id, name"
         )
 
-    sample_ids = pd.Series(
-        sample_ids
-    ).reset_index(drop=True)
+    sample_ids = pd.Series(sample_ids).reset_index(drop=True)
 
-    # --------------------------------------------------
-    # Validate row count
-    # --------------------------------------------------
-
-    if len(sample_ids) != len(
-        engineered_features_output
-    ):
+    if len(sample_ids) != len(engineered_features_output):
         raise ValueError(
-            "SampleId count does not match "
-            "engineered feature rows. "
+            "SampleId count does not match engineered feature rows. "
             f"SampleIds: {len(sample_ids)}, "
-            f"Features: "
-            f"{len(engineered_features_output)}"
+            f"Features: {len(engineered_features_output)}"
         )
-
-    # --------------------------------------------------
-    # Add SampleId ONLY to saved CSV copy
-    # --------------------------------------------------
 
     engineered_features_output.insert(
         0,
         "SampleId",
         sample_ids,
     )
-
-    # --------------------------------------------------
-    # Save engineered features
-    # --------------------------------------------------
 
     engineered_features_output.to_csv(
         "engineered_features.csv",
@@ -209,45 +161,67 @@ def main():
         "\nEngineered features saved to: "
         "engineered_features.csv"
     )
-
     print(
         f"Engineered feature rows: "
         f"{len(engineered_features_output)}"
     )
-
     print(
         f"Engineered feature columns: "
         f"{len(engineered_features_output.columns)}"
     )
 
     print("\nSampleId preview:")
-
     print(
-        engineered_features_output[
-            ["SampleId"]
-        ]
+        engineered_features_output[["SampleId"]]
         .head(10)
         .to_string(index=False)
     )
 
     # --------------------------------------------------
-    # 8. Origin prediction
+    # 8. Robust XGBoost evaluation / configuration selection
     # --------------------------------------------------
-    # IMPORTANT:
-    # engineered_features بدون SampleId به مدل داده می‌شود.
+    # Robust Evaluation is deliberately before final OOF.
+    # The selected Top-K is passed into the final OOF path,
+    # so the two paths cannot silently use different Top-K values.
+
+    robust_summary = evaluate_robust_models(
+        engineered_features,
+        y,
+        output_path="robust_evaluation_results.csv",
+        summary_path="robust_evaluation_summary.csv",
+    )
+
+    if robust_summary.empty:
+        raise RuntimeError(
+            "Robust evaluation returned no candidate configuration."
+        )
+
+    selected_top_k = int(
+        robust_summary.iloc[0]["TopK"]
+    )
+
+    print("\n" + "=" * 70)
+    print("FINAL ORIGIN CONFIGURATION")
+    print("=" * 70)
+    print("Model             : XGBoost")
+    print(f"Selected Top-K    : {selected_top_k}")
+    print("Selection source  : Robust Evaluation")
+
+    # --------------------------------------------------
+    # 9. Final OOF origin prediction
+    # --------------------------------------------------
 
     run_origin_prediction(
         engineered_features,
         y,
         metadata,
+        top_k=selected_top_k,
         output_path="sample_predictions.csv",
     )
 
     # --------------------------------------------------
-    # 9. Stable model evaluation
+    # 10. Stable model evaluation
     # --------------------------------------------------
-    # IMPORTANT:
-    # engineered_features بدون SampleId
 
     evaluate_stable_models(
         engineered_features,
@@ -256,10 +230,8 @@ def main():
     )
 
     # --------------------------------------------------
-    # 10. Tree-based models
+    # 11. Tree-based models
     # --------------------------------------------------
-    # IMPORTANT:
-    # engineered_features بدون SampleId
 
     evaluate_tree_models(
         engineered_features,
@@ -268,7 +240,7 @@ def main():
     )
 
     # --------------------------------------------------
-    # 11. Model comparison
+    # 12. Model comparison
     # --------------------------------------------------
 
     run_model_comparison(
@@ -276,23 +248,13 @@ def main():
     )
 
     # --------------------------------------------------
-    # 12. Robust model evaluation
-    # --------------------------------------------------
-    # IMPORTANT:
-    # engineered_features بدون SampleId
-
-    evaluate_robust_models(
-        engineered_features,
-        y,
-        output_path="robust_evaluation_results.csv",
-        summary_path="robust_evaluation_summary.csv",
-    )
-
-    # --------------------------------------------------
     # 13. SHAP feature importance
     # --------------------------------------------------
-    # IMPORTANT:
-    # engineered_features بدون SampleId
+    # NOTE: For complete configuration consistency, the SHAP
+    # module should also accept selected_top_k instead of using
+    # an internal fixed Top-K. With the current Robust result
+    # of Top-50 this happens to coincide, but the module should
+    # be updated separately for future datasets.
 
     run_shap_analysis(
         engineered_features,
@@ -306,18 +268,10 @@ def main():
     # --------------------------------------------------
 
     run_decision_engine(
-        novelty_path=(
-            "novelty_detection_results.csv"
-        ),
-        predictions_path=(
-            "sample_predictions.csv"
-        ),
-        robust_path=(
-            "robust_evaluation_summary.csv"
-        ),
-        output_path=(
-            "decision_engine_results.csv"
-        ),
+        novelty_path="novelty_detection_results.csv",
+        predictions_path="sample_predictions.csv",
+        robust_path="robust_evaluation_summary.csv",
+        output_path="decision_engine_results.csv",
     )
 
     # --------------------------------------------------
@@ -327,10 +281,6 @@ def main():
     run_final_report(
         output_path="final_report.csv"
     )
-
-    # --------------------------------------------------
-    # Final
-    # --------------------------------------------------
 
     print("\n" + "=" * 70)
     print("MAIN PIPELINE FINISHED")

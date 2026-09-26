@@ -1,58 +1,48 @@
 import numpy as np
 import pandas as pd
 
+from sklearn.feature_selection import SelectKBest
 from sklearn.metrics import (
     accuracy_score,
     balanced_accuracy_score,
     f1_score,
 )
-from sklearn.model_selection import (
-    StratifiedKFold,
-    cross_val_predict,
-)
+from sklearn.model_selection import StratifiedKFold
 from sklearn.pipeline import Pipeline
-from sklearn.feature_selection import (
-    SelectKBest,
-    mutual_info_classif,
-)
 from sklearn.preprocessing import LabelEncoder
-from xgboost import XGBClassifier
+from sklearn.utils.class_weight import compute_sample_weight
+
+from src.origin_model_config import (
+    RANDOM_STATE,
+    N_REPEATS,
+    N_SPLITS,
+    TOP_K_VALUES,
+    build_xgb_model,
+    mutual_info_scores,
+)
 
 
-RANDOM_STATE = 42
-N_SPLITS = 2
-N_REPEATS = 20
-TOP_K_VALUES = [10, 20, 30, 50]
-
-
-def _build_model(
-    n_classes: int,
-) -> XGBClassifier:
-
-    return XGBClassifier(
-        n_estimators=200,
-        max_depth=3,
-        learning_rate=0.05,
-        subsample=0.8,
-        colsample_bytree=0.8,
-        objective="multi:softprob",
-        num_class=n_classes,
-        eval_metric="mlogloss",
-        random_state=RANDOM_STATE,
-        n_jobs=1,
-        verbosity=0,
+def _build_pipeline(n_classes: int, top_k: int) -> Pipeline:
+    return Pipeline(
+        steps=[
+            (
+                "feature_selection",
+                SelectKBest(
+                    score_func=mutual_info_scores,
+                    k=top_k,
+                ),
+            ),
+            (
+                "model",
+                build_xgb_model(n_classes),
+            ),
+        ]
     )
 
 
-def _evaluate_predictions(
-    y_true,
-    y_pred,
-):
+def _evaluate_predictions(y_true, y_pred):
     return {
-        "Accuracy": accuracy_score(
-            y_true,
-            y_pred,
-        ),
+        "Accuracy": accuracy_score(y_true, y_pred),
         "BalancedAccuracy": balanced_accuracy_score(
             y_true,
             y_pred,
@@ -78,14 +68,10 @@ def evaluate_robust_models(
     print("=" * 70)
 
     if X_features.empty:
-        raise ValueError(
-            "Feature matrix is empty."
-        )
+        raise ValueError("Feature matrix is empty.")
 
     if len(X_features) != len(y):
-        raise ValueError(
-            "X_features and y row counts do not match."
-        )
+        raise ValueError("X_features and y row counts do not match.")
 
     y_string = y.astype(str)
 
@@ -94,438 +80,223 @@ def evaluate_robust_models(
         .value_counts()
         .sort_index(
             key=lambda values: values.map(
-                lambda x:
-                    int(str(x)[1:])
-                    if str(x).startswith("G")
-                    else 999
+                lambda x: int(str(x)[1:])
+                if str(x).startswith("G")
+                else 999
             )
         )
     )
 
-    min_class_count = int(
-        class_counts.min()
-    )
+    min_class_count = int(class_counts.min())
 
     if min_class_count < 2:
         raise ValueError(
-            "At least two samples are required "
-            "in every class."
+            "At least two samples are required in every class."
         )
 
-    n_splits = min(
-        N_SPLITS,
-        min_class_count,
-    )
+    n_splits = min(N_SPLITS, min_class_count)
 
     print("\n[1] INPUT DATA")
-
-    print(
-        f"Samples             : "
-        f"{len(X_features)}"
-    )
-
-    print(
-        f"Features            : "
-        f"{X_features.shape[1]}"
-    )
-
-    print(
-        f"Classes             : "
-        f"{y_string.nunique()}"
-    )
-
-    print(
-        f"Minimum class size  : "
-        f"{min_class_count}"
-    )
-
-    print(
-        f"CV folds            : "
-        f"{n_splits}"
-    )
-
-    print(
-        f"CV repeats          : "
-        f"{N_REPEATS}"
-    )
+    print(f"Samples             : {len(X_features)}")
+    print(f"Features            : {X_features.shape[1]}")
+    print(f"Classes             : {y_string.nunique()}")
+    print(f"Minimum class size  : {min_class_count}")
+    print(f"CV folds            : {n_splits}")
+    print(f"CV repeats          : {N_REPEATS}")
+    print("Training weighting  : balanced sample weights")
+    print("Feature scoring     : mutual information, random_state=42")
 
     print("\n[2] CLASS DISTRIBUTION")
-
     for group, count in class_counts.items():
-        print(
-            f"{group:4} -> {count} samples"
-        )
+        print(f"{group:4} -> {count} samples")
 
     label_encoder = LabelEncoder()
-
-    y_encoded = (
-        label_encoder.fit_transform(
-            y_string
-        )
-    )
+    y_encoded = label_encoder.fit_transform(y_string)
+    n_classes = len(label_encoder.classes_)
 
     all_results = []
 
-    print(
-        "\n[3] REPEATED STRATIFIED EVALUATION"
-    )
+    print("\n[3] REPEATED STRATIFIED EVALUATION")
 
     for top_k in TOP_K_VALUES:
-
-        print(
-            "\n" + "-" * 70
-        )
-
-        print(
-            f"XGBoost + Top-{top_k}"
-        )
-
-        print(
-            "-" * 70
-        )
+        print("\n" + "-" * 70)
+        print(f"XGBoost + Top-{top_k}")
+        print("-" * 70)
 
         repeat_metrics = []
 
-        for repeat in range(
-            N_REPEATS
-        ):
-
+        for repeat in range(N_REPEATS):
             cv = StratifiedKFold(
                 n_splits=n_splits,
                 shuffle=True,
-                random_state=(
-                    RANDOM_STATE + repeat
-                ),
+                random_state=RANDOM_STATE + repeat,
             )
 
-            actual_k = min(
-                top_k,
-                X_features.shape[1],
+            repeat_predictions = np.full(
+                len(y_encoded),
+                -1,
+                dtype=int,
             )
 
-            pipeline = Pipeline(
-                steps=[
-                    (
-                        "feature_selection",
-                        SelectKBest(
-                            score_func=(
-                                mutual_info_classif
-                            ),
-                            k=actual_k,
-                        ),
-                    ),
-                    (
-                        "model",
-                        _build_model(
-                            len(
-                                label_encoder.classes_
-                            )
-                        ),
-                    ),
-                ]
-            )
+            actual_k = min(top_k, X_features.shape[1])
 
-            predictions = cross_val_predict(
-                pipeline,
+            for train_idx, test_idx in cv.split(
                 X_features,
                 y_encoded,
-                cv=cv,
-                method="predict",
-                n_jobs=1,
-            )
+            ):
+                X_train = X_features.iloc[train_idx]
+                X_test = X_features.iloc[test_idx]
+                y_train = y_encoded[train_idx]
+
+                pipeline = _build_pipeline(
+                    n_classes=n_classes,
+                    top_k=actual_k,
+                )
+
+                sample_weights = compute_sample_weight(
+                    class_weight="balanced",
+                    y=y_train,
+                )
+
+                pipeline.fit(
+                    X_train,
+                    y_train,
+                    model__sample_weight=sample_weights,
+                )
+
+                repeat_predictions[test_idx] = pipeline.predict(
+                    X_test
+                )
+
+            if np.any(repeat_predictions < 0):
+                raise RuntimeError(
+                    "Some samples did not receive a robust prediction."
+                )
 
             metrics = _evaluate_predictions(
                 y_encoded,
-                predictions,
+                repeat_predictions,
             )
-
             metrics["TopK"] = actual_k
-            metrics["Repeat"] = (
-                repeat + 1
-            )
+            metrics["Repeat"] = repeat + 1
 
-            repeat_metrics.append(
-                metrics
-            )
+            repeat_metrics.append(metrics)
+            all_results.append(metrics)
 
-            all_results.append(
-                metrics
-            )
-
-        repeat_df = pd.DataFrame(
-            repeat_metrics
-        )
+        repeat_df = pd.DataFrame(repeat_metrics)
 
         print(
-            f"Accuracy          : "
-            f"{repeat_df['Accuracy'].mean():.4f} "
-            f"+/- "
-            f"{repeat_df['Accuracy'].std(ddof=1):.4f}"
+            f"Accuracy          : {repeat_df['Accuracy'].mean():.4f} "
+            f"+/- {repeat_df['Accuracy'].std(ddof=1):.4f}"
         )
-
         print(
             f"Balanced Accuracy : "
             f"{repeat_df['BalancedAccuracy'].mean():.4f} "
-            f"+/- "
-            f"{repeat_df['BalancedAccuracy'].std(ddof=1):.4f}"
+            f"+/- {repeat_df['BalancedAccuracy'].std(ddof=1):.4f}"
         )
-
         print(
-            f"Macro F1          : "
-            f"{repeat_df['F1Macro'].mean():.4f} "
-            f"+/- "
-            f"{repeat_df['F1Macro'].std(ddof=1):.4f}"
+            f"Macro F1          : {repeat_df['F1Macro'].mean():.4f} "
+            f"+/- {repeat_df['F1Macro'].std(ddof=1):.4f}"
         )
 
-    results_df = pd.DataFrame(
-        all_results
-    )
+    results_df = pd.DataFrame(all_results)
 
     summary_df = (
         results_df
-        .groupby(
-            "TopK"
-        )
+        .groupby("TopK")
         .agg(
-            AccuracyMean=(
-                "Accuracy",
-                "mean",
-            ),
-            AccuracyStd=(
-                "Accuracy",
-                "std",
-            ),
-            BalancedAccuracyMean=(
-                "BalancedAccuracy",
-                "mean",
-            ),
-            BalancedAccuracyStd=(
-                "BalancedAccuracy",
-                "std",
-            ),
-            F1MacroMean=(
-                "F1Macro",
-                "mean",
-            ),
-            F1MacroStd=(
-                "F1Macro",
-                "std",
-            ),
+            AccuracyMean=("Accuracy", "mean"),
+            AccuracyStd=("Accuracy", "std"),
+            BalancedAccuracyMean=("BalancedAccuracy", "mean"),
+            BalancedAccuracyStd=("BalancedAccuracy", "std"),
+            F1MacroMean=("F1Macro", "mean"),
+            F1MacroStd=("F1Macro", "std"),
         )
         .reset_index()
     )
 
-    # --------------------------------------------------
-    # Chance-level reference
-    # --------------------------------------------------
-
     n_classes = y_string.nunique()
+    chance = 1.0 / n_classes
 
-    chance_accuracy = (
-        1.0 / n_classes
+    summary_df["ChanceAccuracy"] = chance
+    summary_df["ChanceBalancedAccuracy"] = chance
+    summary_df["AccuracyAboveChance"] = (
+        summary_df["AccuracyMean"] - chance
     )
-
-    chance_balanced_accuracy = (
-        1.0 / n_classes
+    summary_df["BalancedAccuracyAboveChance"] = (
+        summary_df["BalancedAccuracyMean"] - chance
     )
-
-    summary_df[
-        "ChanceAccuracy"
-    ] = chance_accuracy
-
-    summary_df[
-        "ChanceBalancedAccuracy"
-    ] = chance_balanced_accuracy
-
-    summary_df[
-        "AccuracyAboveChance"
-    ] = (
-        summary_df["AccuracyMean"]
-        - chance_accuracy
-    )
-
-    summary_df[
-        "BalancedAccuracyAboveChance"
-    ] = (
-        summary_df["BalancedAccuracyMean"]
-        - chance_balanced_accuracy
-    )
-
-    # This means only "above chance".
-    # It does NOT mean reliable or operationally valid.
-    summary_df[
-        "AboveChanceCandidate"
-    ] = (
-        summary_df[
-            "BalancedAccuracyMean"
-        ]
-        > chance_balanced_accuracy
+    summary_df["AboveChanceCandidate"] = (
+        summary_df["BalancedAccuracyMean"] > chance
     )
 
     summary_df = (
-        summary_df.sort_values(
+        summary_df
+        .sort_values(
             by=[
                 "BalancedAccuracyMean",
                 "F1MacroMean",
                 "AccuracyMean",
             ],
-            ascending=[
-                False,
-                False,
-                False,
-            ],
+            ascending=[False, False, False],
         )
-        .reset_index(
-            drop=True
-        )
+        .reset_index(drop=True)
     )
 
-    print(
-        "\n" + "=" * 70
-    )
-
-    print(
-        "[4] ROBUST EVALUATION SUMMARY"
-    )
-
-    print(
-        "=" * 70
-    )
-
+    print("\n" + "=" * 70)
+    print("[4] ROBUST EVALUATION SUMMARY")
+    print("=" * 70)
     print(
         summary_df.to_string(
             index=False,
-            float_format=lambda value:
-                f"{value:.4f}"
+            float_format=lambda value: f"{value:.4f}",
         )
     )
 
-    print(
-        "\n" + "=" * 70
-    )
-
-    print(
-        "[5] CHANCE-LEVEL REFERENCE"
-    )
-
-    print(
-        "=" * 70
-    )
-
-    print(
-        f"Random Accuracy             : "
-        f"{chance_accuracy:.4f}"
-    )
-
-    print(
-        f"Random Balanced Accuracy    : "
-        f"{chance_balanced_accuracy:.4f}"
-    )
+    print("\n" + "=" * 70)
+    print("[5] CHANCE-LEVEL REFERENCE")
+    print("=" * 70)
+    print(f"Random Accuracy             : {chance:.4f}")
+    print(f"Random Balanced Accuracy    : {chance:.4f}")
 
     best = summary_df.iloc[0]
 
+    print("\n" + "=" * 70)
+    print("[6] SELECTED ROBUST CONFIGURATION")
+    print("=" * 70)
+    print(f"Model                  : XGBoost")
+    print(f"Top-K                  : {int(best['TopK'])}")
     print(
-        "\n" + "=" * 70
-    )
-
-    print(
-        "[6] BEST ROBUST CANDIDATE"
-    )
-
-    print(
-        "=" * 70
-    )
-
-    print(
-        f"Top-K                : "
-        f"{int(best['TopK'])}"
-    )
-
-    print(
-        f"Accuracy             : "
-        f"{best['AccuracyMean']:.4f} "
+        f"Accuracy               : {best['AccuracyMean']:.4f} "
         f"+/- {best['AccuracyStd']:.4f}"
     )
-
     print(
-        f"Balanced Accuracy    : "
+        f"Balanced Accuracy      : "
         f"{best['BalancedAccuracyMean']:.4f} "
         f"+/- {best['BalancedAccuracyStd']:.4f}"
     )
-
     print(
-        f"Macro F1             : "
-        f"{best['F1MacroMean']:.4f} "
+        f"Macro F1               : {best['F1MacroMean']:.4f} "
         f"+/- {best['F1MacroStd']:.4f}"
     )
-
-    print(
-        f"Above chance (BA)    : "
-        f"{best['BalancedAccuracyAboveChance']:.4f}"
-    )
-
-    if bool(
-        best["AboveChanceCandidate"]
-    ):
-
-        print(
-            "Candidate status     : "
-            "ABOVE CHANCE ONLY"
-        )
-
-        print(
-            "Operational status   : "
-            "NOT RELIABLE"
-        )
-
-    else:
-
-        print(
-            "Candidate status     : "
-            "NOT ABOVE CHANCE"
-        )
-
-        print(
-            "Operational status   : "
-            "NOT RELIABLE"
-        )
-
-    # --------------------------------------------------
-    # Save
-    # --------------------------------------------------
+    print("Selection criterion     : Balanced Accuracy")
+    print("Operational status      : NOT RELIABLE")
 
     results_df.to_csv(
         output_path,
         index=False,
         encoding="utf-8-sig",
     )
-
     summary_df.to_csv(
         summary_path,
         index=False,
         encoding="utf-8-sig",
     )
 
-    print(
-        f"\nDetailed results saved to: "
-        f"{output_path}"
-    )
-
-    print(
-        f"Summary saved to: "
-        f"{summary_path}"
-    )
-
-    print(
-        "\n" + "=" * 70
-    )
-
-    print(
-        "ROBUST MODEL EVALUATION FINISHED"
-    )
-
-    print(
-        "=" * 70
-    )
+    print(f"\nDetailed results saved to: {output_path}")
+    print(f"Summary saved to: {summary_path}")
+    print("\n" + "=" * 70)
+    print("ROBUST MODEL EVALUATION FINISHED")
+    print("=" * 70)
 
     return summary_df
