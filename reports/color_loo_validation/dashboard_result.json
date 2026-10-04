@@ -1,0 +1,236 @@
+{
+  "analysis": {
+    "name": "Leave-One-Out Color Validation",
+    "region": {
+      "lowerPpm": 5.0,
+      "upperPpm": 9.0
+    },
+    "method": "Leave-one-out reference scoring",
+    "exploratory": true,
+    "independentlyValidated": false
+  },
+  "cohort": {
+    "total": 25,
+    "negative": 2,
+    "positive": 23
+  },
+  "metrics": {
+    "bestThreshold": -1.1095087112756172,
+    "balancedAccuracy": 0.9347826086956521,
+    "sensitivity": 0.8695652173913043,
+    "specificity": 1.0
+  },
+  "samples": [
+    {
+      "number": 1,
+      "name": "sunset yellow(127)",
+      "class": "pure_artificial_color",
+      "score": 0.5889970277304348,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 2,
+      "name": "orange 2",
+      "class": "pure_artificial_color",
+      "score": 0.00029188475426489676,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 3,
+      "name": "Amuranth",
+      "class": "pure_artificial_color",
+      "score": 0.7313087836382265,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 4,
+      "name": "Azorubin",
+      "class": "pure_artificial_color",
+      "score": 0.5447452829193724,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 5,
+      "name": "Quinoline yellow",
+      "class": "pure_artificial_color",
+      "score": 0.9502626921641124,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 6,
+      "name": "Ponceau 4R (96)",
+      "class": "pure_artificial_color",
+      "score": 0.6081644648695749,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 7,
+      "name": "Erythrosin",
+      "class": "pure_artificial_color",
+      "score": 0.853251865199097,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 8,
+      "name": "Orange GG",
+      "class": "pure_artificial_color",
+      "score": 0.6183213834051736,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 9,
+      "name": "Tartarazin",
+      "class": "pure_artificial_color",
+      "score": 0.6822958404399477,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 10,
+      "name": "saffron + sunset yellow(127)",
+      "class": "saffron_plus_artificial_color",
+      "score": 0.07083454135379923,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 11,
+      "name": "saffron + orange GG",
+      "class": "saffron_plus_artificial_color",
+      "score": -0.2443302715957196,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 12,
+      "name": "saffron + Quinoline yellow",
+      "class": "saffron_plus_artificial_color",
+      "score": 0.3410924817725605,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 13,
+      "name": "saffron + orange 2",
+      "class": "saffron_plus_artificial_color",
+      "score": -0.2943923760007049,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 14,
+      "name": "saffron + Ponceau 4R (96)",
+      "class": "saffron_plus_artificial_color",
+      "score": -0.5983321263904126,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 15,
+      "name": "saffron + Erythrosin",
+      "class": "saffron_plus_artificial_color",
+      "score": -0.8504435282112639,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 16,
+      "name": "saffron + orange 2",
+      "class": "saffron_plus_artificial_color",
+      "score": -0.2443302715957196,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 17,
+      "name": "saffron",
+      "class": "real_saffron",
+      "score": -1.117354715493649,
+      "predictedArtificialColor": false,
+      "correct": true
+    },
+    {
+      "number": 20,
+      "name": "saffron + Quinoline yellow 10 %",
+      "class": "saffron_plus_artificial_color",
+      "score": 0.20397300495525167,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 21,
+      "name": "saffron 2",
+      "class": "real_saffron",
+      "score": -1.1100216035735395,
+      "predictedArtificialColor": false,
+      "correct": true
+    },
+    {
+      "number": 22,
+      "name": "445",
+      "class": "artificial_color_adulterated_saffron",
+      "score": -1.0481085554239487,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 23,
+      "name": "372",
+      "class": "artificial_color_adulterated_saffron",
+      "score": -1.1408757884853593,
+      "predictedArtificialColor": false,
+      "correct": false
+    },
+    {
+      "number": 24,
+      "name": "544",
+      "class": "artificial_saffron",
+      "score": -1.1351226393381533,
+      "predictedArtificialColor": false,
+      "correct": false
+    },
+    {
+      "number": 25,
+      "name": "647",
+      "class": "small_amount_artificial_color",
+      "score": -1.1109980657256844,
+      "predictedArtificialColor": false,
+      "correct": false
+    },
+    {
+      "number": 26,
+      "name": "648",
+      "class": "small_amount_artificial_color",
+      "score": -1.0229464631534033,
+      "predictedArtificialColor": true,
+      "correct": true
+    },
+    {
+      "number": 27,
+      "name": "646",
+      "class": "small_amount_artificial_color",
+      "score": -1.0942960246000033,
+      "predictedArtificialColor": true,
+      "correct": true
+    }
+  ],
+  "limitations": [
+    "Only two confirmed real-saffron reference samples are available.",
+    "Threshold selection is still performed on the pilot dataset.",
+    "This is not independent external validation.",
+    "The score is not a calibrated probability."
+  ],
+  "artifacts": {
+    "scores": "reports\\color_loo_validation\\loo_scores.csv",
+    "thresholdScan": "reports\\color_loo_validation\\threshold_scan.csv"
+  },
+  "dashboardReady": true
+}

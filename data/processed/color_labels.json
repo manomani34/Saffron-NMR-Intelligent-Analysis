@@ -1,0 +1,24 @@
+{
+  "input": "data\\raw\\color.csv",
+  "output": "data\\processed\\color_labeled.csv",
+  "sample_count": 27,
+  "label_count": 27,
+  "name_mismatches": 0,
+  "class_distribution": {
+    "artificial_color_adulterated_saffron": 2,
+    "artificial_saffron": 1,
+    "pure_artificial_color": 9,
+    "real_saffron": 2,
+    "saffron_plus_artificial_color": 8,
+    "small_amount_artificial_color": 3,
+    "unknown_adulterated_saffron": 2
+  },
+  "artificial_color_distribution": {
+    "False": 4,
+    "True": 23
+  },
+  "adulteration_distribution": {
+    "False": 11,
+    "True": 16
+  }
+}

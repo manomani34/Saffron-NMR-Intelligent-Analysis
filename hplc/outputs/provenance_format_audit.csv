@@ -1,0 +1,4 @@
+﻿Sheet,Wavelength,UniqueNumberFormats,TopNumberFormats,UniqueStyleIds,TopStyleIds,DataTypes
+Crocin 440,440,2,"[('General', 66291), ('0.00E+00', 18309)]",4,"[(6, 32091), (1, 27000), (2, 18309), (4, 7200)]",{'n': 84600}
+picrocrocin 250,250,2,"[('General', 74199), ('0.00E+00', 5001)]",3,"[(6, 66999), (3, 7200), (2, 5001)]",{'n': 79200}
+safranal 308,308,2,"[('General', 74639), ('0.00E+00', 4561)]",4,"[(6, 40439), (1, 27000), (4, 7200), (2, 4561)]","{'n': 77399, 'f': 1801}"

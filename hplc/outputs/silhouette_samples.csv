@@ -1,0 +1,161 @@
+﻿SampleId,ActualClass,Modality,SilhouetteCorrelation,SilhouetteEuclidean,CorrelationStructure,EuclideanStructure
+1,سمنان,250 nm,-0.9584446910991442,-0.7966427183563838,OutsideOwnCluster,OutsideOwnCluster
+3,سمنان,250 nm,-0.714289755920708,-0.5173914418259662,OutsideOwnCluster,OutsideOwnCluster
+4,اصفهان,250 nm,-0.9835377650727245,-0.8733593941431848,OutsideOwnCluster,OutsideOwnCluster
+5,اصفهان,250 nm,-0.9738254380173875,-0.7912528615104722,OutsideOwnCluster,OutsideOwnCluster
+6,اصفهان,250 nm,-0.8702345165840727,-0.5949519842313354,OutsideOwnCluster,OutsideOwnCluster
+7,اصفهان,250 nm,-0.9215153178443521,-0.6375797365262529,OutsideOwnCluster,OutsideOwnCluster
+8,اصفهان,250 nm,-0.9306340995945351,-0.6559821981077911,OutsideOwnCluster,OutsideOwnCluster
+9,زنجان,250 nm,-0.9565486848696229,-0.7623196072910398,OutsideOwnCluster,OutsideOwnCluster
+10,زنجان,250 nm,-0.915023461494221,-0.6649377574034041,OutsideOwnCluster,OutsideOwnCluster
+11,زنجان,250 nm,-0.829115943263606,-0.5776399807997549,OutsideOwnCluster,OutsideOwnCluster
+12,زنجان,250 nm,-0.5872991277679912,-0.34357633973439133,OutsideOwnCluster,OutsideOwnCluster
+13,اراک,250 nm,-0.9752819145091258,-0.8427799381385814,OutsideOwnCluster,OutsideOwnCluster
+14,اراک,250 nm,-0.40590571138580994,-0.08733872838638115,OutsideOwnCluster,OutsideOwnCluster
+15,اراک,250 nm,-0.3019220629758861,-0.02737429707994447,OutsideOwnCluster,OutsideOwnCluster
+16,اراک,250 nm,-0.324644875893531,-0.02152497422505735,OutsideOwnCluster,OutsideOwnCluster
+17,اراک,250 nm,-0.1430077614016352,-0.04577713433587879,OutsideOwnCluster,OutsideOwnCluster
+18,اراک,250 nm,-0.7058832268897993,-0.43432017969848696,OutsideOwnCluster,OutsideOwnCluster
+19,اراک,250 nm,-0.5566824474719144,-0.2905439216859781,OutsideOwnCluster,OutsideOwnCluster
+20,خراسان شمالی,250 nm,-0.9464250125405557,-0.7686030526272846,OutsideOwnCluster,OutsideOwnCluster
+21,خراسان شمالی,250 nm,-0.08757538384014107,-0.044580447774531344,OutsideOwnCluster,OutsideOwnCluster
+22,خراسان شمالی,250 nm,-0.7756111511122546,-0.5031729948958625,OutsideOwnCluster,OutsideOwnCluster
+23,خراسان شمالی,250 nm,-0.9808294540005011,-0.858336935452762,OutsideOwnCluster,OutsideOwnCluster
+24,خراسان رضوی,250 nm,-0.9053028656846256,-0.6790844066015631,OutsideOwnCluster,OutsideOwnCluster
+26,خراسان رضوی,250 nm,-0.6753606095234906,-0.4201771040709791,OutsideOwnCluster,OutsideOwnCluster
+27,خراسان رضوی,250 nm,-0.9398810638870129,-0.7495353783516359,OutsideOwnCluster,OutsideOwnCluster
+28,خراسان رضوی,250 nm,-0.9346750744192988,-0.7251787412839891,OutsideOwnCluster,OutsideOwnCluster
+30,خراسان رضوی,250 nm,-0.8519439083735024,-0.5640928021621749,OutsideOwnCluster,OutsideOwnCluster
+31,خراسان رضوی,250 nm,-0.7908127257624784,-0.5195322084021095,OutsideOwnCluster,OutsideOwnCluster
+32,خراسان رضوی,250 nm,-0.9292498466646169,-0.7029510667784488,OutsideOwnCluster,OutsideOwnCluster
+33,خراسان رضوی,250 nm,-0.6789903535000672,-0.37797560541840136,OutsideOwnCluster,OutsideOwnCluster
+34,فارس,250 nm,0.22678340279238715,0.11911013259999975,OwnCluster,OwnCluster
+36,فارس,250 nm,-0.8884642018999233,-0.6913810483263209,OutsideOwnCluster,OutsideOwnCluster
+37,قم,250 nm,-0.9032643653531396,-0.6891571626690136,OutsideOwnCluster,OutsideOwnCluster
+38,قم,250 nm,-0.805263173172689,-0.5587126610243642,OutsideOwnCluster,OutsideOwnCluster
+39,یزد,250 nm,0.831694694040847,0.5470942031594322,OwnCluster,OwnCluster
+40,یزد,250 nm,0.7649373008472351,0.4053721012045808,OwnCluster,OwnCluster
+41,قزوین,250 nm,0.8720253421411198,0.6416290571403662,OwnCluster,OwnCluster
+42,قزوین,250 nm,0.7628724342297326,0.510912845952614,OwnCluster,OwnCluster
+43,لرستان,250 nm,0.9572530308306598,0.7912646381380896,OwnCluster,OwnCluster
+44,لرستان,250 nm,0.9430745177104529,0.7578992187099873,OwnCluster,OwnCluster
+1,سمنان,308 nm,-0.7930538572555065,-0.5463433827642697,OutsideOwnCluster,OutsideOwnCluster
+3,سمنان,308 nm,-0.819730661894029,-0.5757493770625621,OutsideOwnCluster,OutsideOwnCluster
+4,اصفهان,308 nm,-0.5724571585391293,-0.35867781937644366,OutsideOwnCluster,OutsideOwnCluster
+5,اصفهان,308 nm,-0.7886014458341447,-0.4921293365913837,OutsideOwnCluster,OutsideOwnCluster
+6,اصفهان,308 nm,-0.7725681028114388,-0.4824648095156346,OutsideOwnCluster,OutsideOwnCluster
+7,اصفهان,308 nm,-0.7453565245782249,-0.4460398902160323,OutsideOwnCluster,OutsideOwnCluster
+8,اصفهان,308 nm,-0.49883688095817136,-0.24634604553032333,OutsideOwnCluster,OutsideOwnCluster
+9,زنجان,308 nm,0.15049634261132486,0.10072251662636769,OwnCluster,OwnCluster
+10,زنجان,308 nm,-0.20111237859259165,-0.08296552551292838,OutsideOwnCluster,OutsideOwnCluster
+11,زنجان,308 nm,-0.9355334892654998,-0.7446368650913421,OutsideOwnCluster,OutsideOwnCluster
+12,زنجان,308 nm,-0.6151950354661715,-0.37733109508833085,OutsideOwnCluster,OutsideOwnCluster
+13,اراک,308 nm,-0.5736832105243354,-0.34904698416148533,OutsideOwnCluster,OutsideOwnCluster
+14,اراک,308 nm,-0.4870763095728466,-0.2135030831605136,OutsideOwnCluster,OutsideOwnCluster
+15,اراک,308 nm,-0.616352611895413,-0.25049429664458817,OutsideOwnCluster,OutsideOwnCluster
+16,اراک,308 nm,-0.6592203574423705,-0.2990456397306734,OutsideOwnCluster,OutsideOwnCluster
+17,اراک,308 nm,-0.9141333576749239,-0.7000799774600288,OutsideOwnCluster,OutsideOwnCluster
+18,اراک,308 nm,-0.34451901048265743,-0.2547528314011315,OutsideOwnCluster,OutsideOwnCluster
+19,اراک,308 nm,-0.6805250000762676,-0.35046704841805365,OutsideOwnCluster,OutsideOwnCluster
+20,خراسان شمالی,308 nm,-0.4829828804183236,-0.2809380115525638,OutsideOwnCluster,OutsideOwnCluster
+21,خراسان شمالی,308 nm,-0.7323124034711045,-0.44426593413958004,OutsideOwnCluster,OutsideOwnCluster
+22,خراسان شمالی,308 nm,-0.7865652612898479,-0.5047339283480209,OutsideOwnCluster,OutsideOwnCluster
+23,خراسان شمالی,308 nm,-0.8860525886117986,-0.6630914430257565,OutsideOwnCluster,OutsideOwnCluster
+24,خراسان رضوی,308 nm,-0.0956913320543993,-0.052374572158614026,OutsideOwnCluster,OutsideOwnCluster
+26,خراسان رضوی,308 nm,-0.15298082659440557,-0.07887766431321837,OutsideOwnCluster,OutsideOwnCluster
+27,خراسان رضوی,308 nm,0.08955615674016082,0.05228494243327282,OwnCluster,OwnCluster
+28,خراسان رضوی,308 nm,0.03150773340214285,0.022627451074676654,OwnCluster,OwnCluster
+30,خراسان رضوی,308 nm,-0.7631449224337126,-0.47249616993395666,OutsideOwnCluster,OutsideOwnCluster
+31,خراسان رضوی,308 nm,-0.8435427503976219,-0.5972091930062151,OutsideOwnCluster,OutsideOwnCluster
+32,خراسان رضوی,308 nm,-0.6180147489546561,-0.34328542752422153,OutsideOwnCluster,OutsideOwnCluster
+33,خراسان رضوی,308 nm,-0.8710307002582166,-0.6079326280991777,OutsideOwnCluster,OutsideOwnCluster
+34,فارس,308 nm,0.7125445092181775,0.4374987989086173,OwnCluster,OwnCluster
+36,فارس,308 nm,0.6330213277636149,0.3942123538430443,OwnCluster,OwnCluster
+37,قم,308 nm,-0.8171608483443817,-0.590854989563638,OutsideOwnCluster,OutsideOwnCluster
+38,قم,308 nm,-0.540202317235019,-0.32220962923401436,OutsideOwnCluster,OutsideOwnCluster
+39,یزد,308 nm,0.9999999999999986,1.0,OwnCluster,OwnCluster
+40,یزد,308 nm,0.9999999999999986,1.0,OwnCluster,OwnCluster
+41,قزوین,308 nm,0.44448189921649844,0.2499575986345498,OwnCluster,OwnCluster
+42,قزوین,308 nm,0.6630605041909943,0.41542332532971976,OwnCluster,OwnCluster
+43,لرستان,308 nm,0.7921937246693918,0.5404865199496394,OwnCluster,OwnCluster
+44,لرستان,308 nm,0.6678185593708345,0.41949317315274054,OwnCluster,OwnCluster
+1,سمنان,440 nm,-0.8780346292967363,-0.6542341951165044,OutsideOwnCluster,OutsideOwnCluster
+3,سمنان,440 nm,-0.5862203553190293,-0.46127840170493334,OutsideOwnCluster,OutsideOwnCluster
+4,اصفهان,440 nm,-0.9693931944709806,-0.8283704894417929,OutsideOwnCluster,OutsideOwnCluster
+5,اصفهان,440 nm,-0.9556676694162701,-0.7195923658564222,OutsideOwnCluster,OutsideOwnCluster
+6,اصفهان,440 nm,-0.8838133308750089,-0.5147118141293267,OutsideOwnCluster,OutsideOwnCluster
+7,اصفهان,440 nm,-0.8437479581634562,-0.4375450806288287,OutsideOwnCluster,OutsideOwnCluster
+8,اصفهان,440 nm,-0.9042125682075542,-0.5862409649073564,OutsideOwnCluster,OutsideOwnCluster
+9,زنجان,440 nm,-0.8755549821270995,-0.5912792105883629,OutsideOwnCluster,OutsideOwnCluster
+10,زنجان,440 nm,-0.8557346036634326,-0.5597419807852935,OutsideOwnCluster,OutsideOwnCluster
+11,زنجان,440 nm,-0.9308832820145728,-0.7507716624305688,OutsideOwnCluster,OutsideOwnCluster
+12,زنجان,440 nm,-0.8096039524783846,-0.5613215000047822,OutsideOwnCluster,OutsideOwnCluster
+13,اراک,440 nm,-0.9660860422304861,-0.8211707066424833,OutsideOwnCluster,OutsideOwnCluster
+14,اراک,440 nm,-0.3717647593768056,-0.08702089599913496,OutsideOwnCluster,OutsideOwnCluster
+15,اراک,440 nm,-0.17925666881558394,-0.1366874882251799,OutsideOwnCluster,OutsideOwnCluster
+16,اراک,440 nm,-0.3099474085773576,-0.037901158067165444,OutsideOwnCluster,OutsideOwnCluster
+17,اراک,440 nm,-0.9221379132476941,-0.7053394146018563,OutsideOwnCluster,OutsideOwnCluster
+18,اراک,440 nm,-0.732679717703135,-0.469768830692861,OutsideOwnCluster,OutsideOwnCluster
+19,اراک,440 nm,-0.9262447769542563,-0.7157464175011637,OutsideOwnCluster,OutsideOwnCluster
+20,خراسان شمالی,440 nm,-0.9706884897005601,-0.8339937617809237,OutsideOwnCluster,OutsideOwnCluster
+21,خراسان شمالی,440 nm,-0.19682684152662983,-0.10790644032972303,OutsideOwnCluster,OutsideOwnCluster
+22,خراسان شمالی,440 nm,-0.8359206158866738,-0.5995309280664876,OutsideOwnCluster,OutsideOwnCluster
+23,خراسان شمالی,440 nm,-0.990950757175759,-0.9037981084208933,OutsideOwnCluster,OutsideOwnCluster
+24,خراسان رضوی,440 nm,-0.7114851187474196,-0.42663697225704744,OutsideOwnCluster,OutsideOwnCluster
+26,خراسان رضوی,440 nm,-0.9192210576613526,-0.6908015266493224,OutsideOwnCluster,OutsideOwnCluster
+27,خراسان رضوی,440 nm,-0.982558263147826,-0.8515286190467842,OutsideOwnCluster,OutsideOwnCluster
+28,خراسان رضوی,440 nm,-0.959751047311391,-0.7745091212089399,OutsideOwnCluster,OutsideOwnCluster
+30,خراسان رضوی,440 nm,-0.9552599447436171,-0.7576915686310535,OutsideOwnCluster,OutsideOwnCluster
+31,خراسان رضوی,440 nm,-0.9024807690466717,-0.692775041831615,OutsideOwnCluster,OutsideOwnCluster
+32,خراسان رضوی,440 nm,-0.9242529058051713,-0.6858247914285607,OutsideOwnCluster,OutsideOwnCluster
+33,خراسان رضوی,440 nm,-0.9326330631722015,-0.7039875415765422,OutsideOwnCluster,OutsideOwnCluster
+34,فارس,440 nm,0.10534728927254278,0.017162329231958845,OwnCluster,OwnCluster
+36,فارس,440 nm,0.6646808940649497,0.3984679879923709,OwnCluster,OwnCluster
+37,قم,440 nm,-0.9706397395189093,-0.8333017832215508,OutsideOwnCluster,OutsideOwnCluster
+38,قم,440 nm,-0.7333996763682825,-0.48370248091212775,OutsideOwnCluster,OutsideOwnCluster
+39,یزد,440 nm,0.4910987040642928,0.2663256495468657,OwnCluster,OwnCluster
+40,یزد,440 nm,-0.38239042767470394,-0.23606050550662402,OutsideOwnCluster,OutsideOwnCluster
+41,قزوین,440 nm,0.8092909615121628,0.5095272256273081,OwnCluster,OwnCluster
+42,قزوین,440 nm,0.5189491421252053,0.304876698615122,OwnCluster,OwnCluster
+43,لرستان,440 nm,0.9858599170993751,0.8783987260019764,OwnCluster,OwnCluster
+44,لرستان,440 nm,0.9831126406870968,0.8662488239069215,OwnCluster,OwnCluster
+1,سمنان,Combined,-0.8592284871016774,-0.6248254005668229,OutsideOwnCluster,OutsideOwnCluster
+3,سمنان,Combined,-0.7031757480481609,-0.4981514968085441,OutsideOwnCluster,OutsideOwnCluster
+4,اصفهان,Combined,-0.8410323608665148,-0.6021814777240001,OutsideOwnCluster,OutsideOwnCluster
+5,اصفهان,Combined,-0.8830434566266027,-0.589174840208118,OutsideOwnCluster,OutsideOwnCluster
+6,اصفهان,Combined,-0.8396544298820723,-0.5406051176359938,OutsideOwnCluster,OutsideOwnCluster
+7,اصفهان,Combined,-0.7746838359533751,-0.42756816299738176,OutsideOwnCluster,OutsideOwnCluster
+8,اصفهان,Combined,-0.7160375051666531,-0.36935117989843813,OutsideOwnCluster,OutsideOwnCluster
+9,زنجان,Combined,-0.48625120788394877,-0.22445078560490284,OutsideOwnCluster,OutsideOwnCluster
+10,زنجان,Combined,-0.6053681474588721,-0.32011757476274133,OutsideOwnCluster,OutsideOwnCluster
+11,زنجان,Combined,-0.8988247455407411,-0.6800250393396907,OutsideOwnCluster,OutsideOwnCluster
+12,زنجان,Combined,-0.6757572889249919,-0.4255005625852046,OutsideOwnCluster,OutsideOwnCluster
+13,اراک,Combined,-0.8193926574254949,-0.575488642130262,OutsideOwnCluster,OutsideOwnCluster
+14,اراک,Combined,-0.4195230045350435,-0.13069841969032966,OutsideOwnCluster,OutsideOwnCluster
+15,اراک,Combined,-0.33931933522289776,-0.06751922466993672,OutsideOwnCluster,OutsideOwnCluster
+16,اراک,Combined,-0.4159053924711302,-0.11200867701854311,OutsideOwnCluster,OutsideOwnCluster
+17,اراک,Combined,-0.637164399344189,-0.3774773740274731,OutsideOwnCluster,OutsideOwnCluster
+18,اراک,Combined,-0.580720452875065,-0.3425803934454867,OutsideOwnCluster,OutsideOwnCluster
+19,اراک,Combined,-0.7132741947754562,-0.4297819072834797,OutsideOwnCluster,OutsideOwnCluster
+20,خراسان شمالی,Combined,-0.7910755124278591,-0.5431734558984396,OutsideOwnCluster,OutsideOwnCluster
+21,خراسان شمالی,Combined,-0.23343748509481693,-0.11732629028134005,OutsideOwnCluster,OutsideOwnCluster
+22,خراسان شمالی,Combined,-0.8021302661561628,-0.5447738006580511,OutsideOwnCluster,OutsideOwnCluster
+23,خراسان شمالی,Combined,-0.954481452779582,-0.7838357923842431,OutsideOwnCluster,OutsideOwnCluster
+24,خراسان رضوی,Combined,-0.4381491389909445,-0.23226021475525518,OutsideOwnCluster,OutsideOwnCluster
+26,خراسان رضوی,Combined,-0.4812662407708931,-0.26817074015395004,OutsideOwnCluster,OutsideOwnCluster
+27,خراسان رضوی,Combined,-0.48864912138859096,-0.2552123764034377,OutsideOwnCluster,OutsideOwnCluster
+28,خراسان رضوی,Combined,-0.4772918701989325,-0.2421452493810546,OutsideOwnCluster,OutsideOwnCluster
+30,خراسان رضوی,Combined,-0.8595404615930815,-0.5836365146006215,OutsideOwnCluster,OutsideOwnCluster
+31,خراسان رضوی,Combined,-0.847269530214853,-0.594682525979743,OutsideOwnCluster,OutsideOwnCluster
+32,خراسان رضوی,Combined,-0.8249705038186156,-0.5423313875659558,OutsideOwnCluster,OutsideOwnCluster
+33,خراسان رضوی,Combined,-0.8255590340092342,-0.5390091679523534,OutsideOwnCluster,OutsideOwnCluster
+34,فارس,Combined,0.6686159586860069,0.42427074488343963,OwnCluster,OwnCluster
+36,فارس,Combined,0.38117335008755754,0.2129051496293756,OwnCluster,OwnCluster
+37,قم,Combined,-0.8727092627014781,-0.6433664129240315,OutsideOwnCluster,OutsideOwnCluster
+38,قم,Combined,-0.693061189406623,-0.44601989219539795,OutsideOwnCluster,OutsideOwnCluster
+39,یزد,Combined,0.9442356447839093,0.7613323442066933,OwnCluster,OwnCluster
+40,یزد,Combined,0.9391583743441746,0.7500429291696619,OwnCluster,OwnCluster
+41,قزوین,Combined,0.7270288902677968,0.47649486974655914,OwnCluster,OwnCluster
+42,قزوین,Combined,0.6494325566606027,0.4048292197430668,OwnCluster,OwnCluster
+43,لرستان,Combined,0.8953893429148786,0.6762214013520144,OwnCluster,OwnCluster
+44,لرستان,Combined,0.8557726036132917,0.6188494353369322,OwnCluster,OwnCluster

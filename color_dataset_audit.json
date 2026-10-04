@@ -1,0 +1,117 @@
+{
+  "dataset": {
+    "path": "data\\raw\\color.csv",
+    "filename": "color.csv",
+    "size_bytes": 2280675,
+    "sha256": "9a48fe0801fbc303b5513925a8fbf36aba344c0ccca6a127fdb43c15abc4fd9d",
+    "rows": 27,
+    "columns": 10003
+  },
+  "structure": {
+    "metadata_columns": [
+      "name  ",
+      "number"
+    ],
+    "spectral_column_count": 9617,
+    "empty_column_count": 384
+  },
+  "metadata": {
+    "name_column": "name  ",
+    "number_column": "number",
+    "metadata_valid": true
+  },
+  "samples": {
+    "count": 27,
+    "names": [
+      "sunset yellow(127)",
+      "orange 2",
+      "Amuranth",
+      "Azorubin",
+      "Quinoline yellow",
+      "Ponceau 4R (96)",
+      "Erythrosin",
+      "Orange GG",
+      "Tartarazin",
+      "saffron + sunset yellow(127)",
+      "saffron + orange GG",
+      "saffron + Quinoline yellow",
+      "saffron + orange 2",
+      "saffron + Ponceau 4R (96)",
+      "saffron + Erythrosin",
+      "saffron + orange 2",
+      "saffron",
+      "650",
+      "651",
+      "saffron + Quinoline yellow 10 %",
+      "saffron 2",
+      "445",
+      "372",
+      "544",
+      "647",
+      "648",
+      "646"
+    ],
+    "invalid_numbers": 0,
+    "duplicate_numbers": []
+  },
+  "spectral_axis": {
+    "valid": true,
+    "increasing": true,
+    "decreasing": false,
+    "min_ppm": 0.500998,
+    "max_ppm": 10.4999,
+    "mean_bin_width": 0.0010398192595673878,
+    "min_bin_width": 0.0009699999999988052,
+    "max_bin_width": 0.38398999999999983,
+    "normal_bin_width_mean": 0.0009999908476339054,
+    "normal_bin_width_min": 0.0009699999999988052,
+    "normal_bin_width_max": 0.0010000000000012221,
+    "unexpected_gaps": [
+      {
+        "left_ppm": 4.66697,
+        "right_ppm": 5.05096,
+        "gap": 0.38398999999999983
+      }
+    ]
+  },
+  "solvent_region": {
+    "expected_lower_ppm": 4.66797,
+    "expected_upper_ppm": 5.4996,
+    "columns_inside_region": 449,
+    "removed": false,
+    "observed_gap": {
+      "detected": true,
+      "last_before_region": 4.66697,
+      "first_after_region": 5.49996,
+      "gap": 0.8329899999999997
+    }
+  },
+  "artificial_color_region": {
+    "lower_ppm": 5.0,
+    "upper_ppm": 9.0,
+    "spectral_points": 3950
+  },
+  "duplicates": {
+    "exact_duplicate_spectra": 1,
+    "duplicate_row_indexes": [
+      10,
+      15
+    ]
+  },
+  "spectral_statistics": {
+    "minimum": -11.2892,
+    "maximum": 926.339,
+    "mean": 12.769491121941448,
+    "std": 36.28354180358027
+  },
+  "compatibility": {
+    "metadata_name_column": true,
+    "metadata_number_column": true,
+    "spectral_columns_found": true,
+    "spectral_values_numeric": true,
+    "spectral_values_finite": true,
+    "spectral_axis_valid": true,
+    "solvent_region_removed": true
+  },
+  "overall_valid": true
+}

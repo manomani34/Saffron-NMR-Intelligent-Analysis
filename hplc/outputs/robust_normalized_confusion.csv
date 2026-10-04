@@ -1,0 +1,993 @@
+﻿Scenario,Preprocessing,PreprocessingCode,Modality,ActualGroup,PredictedGroup,ConfusionCount,ActualGroupTotal,WithinActualRate,IsCorrect
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G1,G4,20,40,0.5,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G1,G5,11,40,0.275,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G1,G2,5,40,0.125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G1,G6,3,40,0.075,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G1,G9,1,40,0.025,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G10,G2,34,40,0.85,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G10,G11,4,40,0.1,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G10,G4,1,40,0.025,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G10,G6,1,40,0.025,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G11,G2,16,40,0.4,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G11,G11,9,40,0.225,True
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G11,G5,8,40,0.2,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G11,G6,4,40,0.1,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G11,G3,2,40,0.05,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G11,G10,1,40,0.025,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G2,G2,54,100,0.54,True
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G2,G6,31,100,0.31,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G2,G11,6,100,0.06,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G2,G3,4,100,0.04,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G2,G1,2,100,0.02,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G2,G10,2,100,0.02,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G2,G9,1,100,0.01,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G3,G6,52,80,0.65,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G3,G4,23,80,0.2875,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G3,G2,2,80,0.025,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G3,G1,1,80,0.0125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G3,G8,1,80,0.0125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G3,G9,1,80,0.0125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G4,71,140,0.5071428571428571,True
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G6,37,140,0.2642857142857143,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G1,12,140,0.08571428571428572,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G8,8,140,0.05714285714285714,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G3,5,140,0.03571428571428571,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G2,4,140,0.02857142857142857,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G5,2,140,0.014285714285714285,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G4,G9,1,140,0.007142857142857143,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G6,30,80,0.375,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G2,17,80,0.2125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G4,13,80,0.1625,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G1,12,80,0.15,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G3,4,80,0.05,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G11,2,80,0.025,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G8,1,80,0.0125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G5,G9,1,80,0.0125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G6,90,160,0.5625,True
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G4,23,160,0.14375,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G3,15,160,0.09375,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G5,13,160,0.08125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G2,12,160,0.075,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G1,3,160,0.01875,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G9,3,160,0.01875,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G6,G11,1,160,0.00625,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G7,G6,35,40,0.875,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G7,G3,4,40,0.1,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G7,G2,1,40,0.025,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G8,G4,24,40,0.6,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G8,G6,12,40,0.3,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G8,G3,4,40,0.1,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G9,G6,20,40,0.5,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G9,G4,7,40,0.175,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G9,G3,5,40,0.125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G9,G5,5,40,0.125,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G9,G8,2,40,0.05,False
+AsLS + L2 | 250 nm,AsLS + L2,asls_l2,250 nm,G9,G1,1,40,0.025,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G1,G4,23,40,0.575,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G1,G2,7,40,0.175,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G1,G7,5,40,0.125,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G1,G9,4,40,0.1,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G1,G8,1,40,0.025,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G10,G2,25,40,0.625,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G10,G4,9,40,0.225,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G10,G6,5,40,0.125,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G10,G3,1,40,0.025,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G11,G2,28,40,0.7,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G11,G4,6,40,0.15,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G11,G6,5,40,0.125,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G11,G3,1,40,0.025,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G2,G2,34,100,0.34,True
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G2,G4,26,100,0.26,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G2,G6,19,100,0.19,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G2,G3,14,100,0.14,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G2,G5,5,100,0.05,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G2,G7,2,100,0.02,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G3,G4,25,80,0.3125,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G3,G2,16,80,0.2,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G3,G6,15,80,0.1875,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G3,G5,14,80,0.175,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G3,G3,10,80,0.125,True
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G4,G4,78,140,0.5571428571428572,True
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G4,G6,30,140,0.21428571428571427,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G4,G2,17,140,0.12142857142857143,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G4,G3,9,140,0.06428571428571428,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G4,G5,5,140,0.03571428571428571,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G4,G8,1,140,0.007142857142857143,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G5,G4,38,80,0.475,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G5,G2,16,80,0.2,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G5,G3,15,80,0.1875,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G5,G6,11,80,0.1375,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G6,G4,74,160,0.4625,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G6,G6,49,160,0.30625,True
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G6,G2,25,160,0.15625,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G6,G3,9,160,0.05625,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G6,G9,2,160,0.0125,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G6,G5,1,160,0.00625,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G7,G9,13,40,0.325,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G7,G7,11,40,0.275,True
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G7,G2,8,40,0.2,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G7,G4,3,40,0.075,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G7,G6,2,40,0.05,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G7,G8,2,40,0.05,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G7,G3,1,40,0.025,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G8,G4,20,40,0.5,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G8,G9,16,40,0.4,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G8,G7,4,40,0.1,False
+AsLS + L2 | 308 nm,AsLS + L2,asls_l2,308 nm,G9,G9,40,40,1.0,True
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G1,G4,22,40,0.55,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G1,G6,12,40,0.3,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G1,G2,3,40,0.075,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G1,G9,2,40,0.05,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G1,G3,1,40,0.025,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G10,G2,24,40,0.6,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G10,G6,8,40,0.2,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G10,G4,7,40,0.175,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G10,G3,1,40,0.025,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G11,G5,14,40,0.35,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G11,G2,12,40,0.3,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G11,G6,5,40,0.125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G11,G11,4,40,0.1,True
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G11,G3,3,40,0.075,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G11,G4,2,40,0.05,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G2,38,100,0.38,True
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G6,30,100,0.3,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G4,20,100,0.2,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G3,8,100,0.08,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G11,1,100,0.01,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G5,1,100,0.01,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G7,1,100,0.01,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G2,G9,1,100,0.01,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G3,G6,35,80,0.4375,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G3,G4,19,80,0.2375,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G3,G2,10,80,0.125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G3,G5,10,80,0.125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G3,G11,4,80,0.05,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G3,G3,1,80,0.0125,True
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G3,G7,1,80,0.0125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G4,G4,44,140,0.3142857142857143,True
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G4,G6,40,140,0.2857142857142857,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G4,G2,20,140,0.14285714285714285,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G4,G8,16,140,0.11428571428571428,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G4,G5,13,140,0.09285714285714286,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G4,G3,6,140,0.04285714285714286,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G4,G1,1,140,0.007142857142857143,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G5,G6,35,80,0.4375,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G5,G4,18,80,0.225,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G5,G2,15,80,0.1875,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G5,G3,7,80,0.0875,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G5,G1,4,80,0.05,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G5,G11,1,80,0.0125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G6,G6,82,160,0.5125,True
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G6,G4,39,160,0.24375,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G6,G2,12,160,0.075,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G6,G5,11,160,0.06875,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G6,G3,9,160,0.05625,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G6,G1,5,160,0.03125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G6,G9,2,160,0.0125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G7,G6,28,40,0.7,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G7,G2,4,40,0.1,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G7,G3,4,40,0.1,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G7,G9,2,40,0.05,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G7,G1,1,40,0.025,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G7,G5,1,40,0.025,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G8,G4,19,40,0.475,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G8,G6,15,40,0.375,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G8,G3,5,40,0.125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G8,G2,1,40,0.025,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G9,G6,16,40,0.4,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G9,G2,7,40,0.175,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G9,G4,5,40,0.125,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G9,G1,4,40,0.1,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G9,G3,4,40,0.1,False
+AsLS + L2 | 440 nm,AsLS + L2,asls_l2,440 nm,G9,G9,4,40,0.1,True
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G1,G4,20,40,0.5,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G1,G6,8,40,0.2,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G1,G5,5,40,0.125,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G1,G9,4,40,0.1,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G1,G2,3,40,0.075,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G10,G2,32,40,0.8,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G10,G6,4,40,0.1,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G10,G4,3,40,0.075,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G10,G11,1,40,0.025,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G11,G2,29,40,0.725,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G11,G5,6,40,0.15,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G11,G11,2,40,0.05,True
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G11,G3,2,40,0.05,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G11,G6,1,40,0.025,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G2,G2,52,100,0.52,True
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G2,G6,28,100,0.28,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G2,G3,7,100,0.07,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G2,G5,5,100,0.05,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G2,G11,4,100,0.04,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G2,G4,2,100,0.02,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G2,G9,2,100,0.02,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G3,G6,34,80,0.425,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G3,G4,24,80,0.3,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G3,G2,10,80,0.125,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G3,G5,10,80,0.125,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G3,G1,1,80,0.0125,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G3,G3,1,80,0.0125,True
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G4,G4,81,140,0.5785714285714286,True
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G4,G6,25,140,0.17857142857142858,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G4,G5,12,140,0.08571428571428572,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G4,G3,9,140,0.06428571428571428,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G4,G2,6,140,0.04285714285714286,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G4,G8,4,140,0.02857142857142857,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G4,G1,3,140,0.02142857142857143,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G5,G4,34,80,0.425,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G5,G2,18,80,0.225,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G5,G6,14,80,0.175,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G5,G3,10,80,0.125,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G5,G1,2,80,0.025,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G5,G9,2,80,0.025,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G6,G6,76,160,0.475,True
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G6,G4,48,160,0.3,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G6,G2,19,160,0.11875,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G6,G5,9,160,0.05625,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G6,G3,6,160,0.0375,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G6,G8,1,160,0.00625,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G6,G9,1,160,0.00625,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G7,G9,26,40,0.65,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G7,G6,7,40,0.175,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G7,G2,4,40,0.1,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G7,G8,2,40,0.05,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G7,G1,1,40,0.025,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G8,G4,23,40,0.575,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G8,G9,14,40,0.35,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G8,G6,2,40,0.05,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G8,G7,1,40,0.025,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G9,G9,37,40,0.925,True
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G9,G1,2,40,0.05,False
+AsLS + L2 | Combined,AsLS + L2,asls_l2,Combined,G9,G4,1,40,0.025,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G1,G4,20,40,0.5,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G1,G9,8,40,0.2,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G1,G6,6,40,0.15,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G1,G5,3,40,0.075,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G1,G3,2,40,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G1,G2,1,40,0.025,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G10,G2,28,40,0.7,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G10,G6,5,40,0.125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G10,G4,3,40,0.075,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G10,G11,2,40,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G10,G5,2,40,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G11,G2,18,40,0.45,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G11,G6,7,40,0.175,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G11,G4,5,40,0.125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G11,G5,5,40,0.125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G11,G11,4,40,0.1,True
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G11,G3,1,40,0.025,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G2,45,100,0.45,True
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G6,23,100,0.23,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G3,9,100,0.09,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G1,6,100,0.06,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G4,6,100,0.06,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G9,5,100,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G11,3,100,0.03,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G8,2,100,0.02,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G2,G5,1,100,0.01,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G3,G6,47,80,0.5875,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G3,G4,25,80,0.3125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G3,G2,5,80,0.0625,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G3,G1,1,80,0.0125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G3,G3,1,80,0.0125,True
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G3,G5,1,80,0.0125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G4,89,140,0.6357142857142857,True
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G6,22,140,0.15714285714285714,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G5,8,140,0.05714285714285714,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G1,6,140,0.04285714285714286,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G3,5,140,0.03571428571428571,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G8,5,140,0.03571428571428571,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G9,3,140,0.02142857142857143,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G4,G2,2,140,0.014285714285714285,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G6,29,80,0.3625,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G2,20,80,0.25,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G4,13,80,0.1625,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G9,5,80,0.0625,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G3,4,80,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G1,3,80,0.0375,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G11,3,80,0.0375,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G8,2,80,0.025,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G5,G10,1,80,0.0125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G6,G6,79,160,0.49375,True
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G6,G2,23,160,0.14375,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G6,G4,22,160,0.1375,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G6,G3,18,160,0.1125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G6,G5,9,160,0.05625,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G6,G1,8,160,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G6,G9,1,160,0.00625,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G7,G6,27,40,0.675,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G7,G2,7,40,0.175,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G7,G3,5,40,0.125,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G7,G9,1,40,0.025,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G8,G4,22,40,0.55,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G8,G6,14,40,0.35,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G8,G2,2,40,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G8,G3,2,40,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G6,13,40,0.325,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G2,9,40,0.225,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G4,6,40,0.15,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G1,4,40,0.1,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G3,3,40,0.075,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G8,2,40,0.05,False
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G9,2,40,0.05,True
+AsLS + SNV | 250 nm,AsLS + SNV,asls_snv,250 nm,G9,G5,1,40,0.025,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G1,G4,24,40,0.6,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G1,G7,5,40,0.125,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G1,G2,4,40,0.1,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G1,G8,3,40,0.075,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G1,G9,3,40,0.075,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G1,G5,1,40,0.025,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G10,G2,22,40,0.55,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G10,G4,14,40,0.35,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G10,G6,4,40,0.1,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G11,G2,22,40,0.55,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G11,G6,10,40,0.25,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G11,G4,8,40,0.2,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G2,G2,37,100,0.37,True
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G2,G4,29,100,0.29,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G2,G6,25,100,0.25,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G2,G3,3,100,0.03,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G2,G5,3,100,0.03,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G2,G7,3,100,0.03,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G3,G3,21,80,0.2625,True
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G3,G4,18,80,0.225,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G3,G2,17,80,0.2125,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G3,G6,13,80,0.1625,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G3,G5,11,80,0.1375,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G4,G4,70,140,0.5,True
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G4,G6,33,140,0.2357142857142857,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G4,G2,16,140,0.11428571428571428,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G4,G3,14,140,0.1,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G4,G5,7,140,0.05,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G5,G4,26,80,0.325,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G5,G2,23,80,0.2875,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G5,G3,16,80,0.2,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G5,G6,14,80,0.175,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G5,G5,1,80,0.0125,True
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G6,G6,65,160,0.40625,True
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G6,G4,60,160,0.375,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G6,G2,29,160,0.18125,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G6,G3,4,160,0.025,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G6,G5,1,160,0.00625,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G6,G9,1,160,0.00625,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G7,G9,15,40,0.375,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G7,G7,12,40,0.3,True
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G7,G2,4,40,0.1,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G7,G4,4,40,0.1,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G7,G8,4,40,0.1,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G7,G6,1,40,0.025,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G8,G4,17,40,0.425,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G8,G9,12,40,0.3,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G8,G7,8,40,0.2,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G8,G6,3,40,0.075,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G9,G9,37,40,0.925,True
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G9,G7,2,40,0.05,False
+AsLS + SNV | 308 nm,AsLS + SNV,asls_snv,308 nm,G9,G4,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G1,G4,17,40,0.425,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G1,G9,10,40,0.25,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G1,G6,7,40,0.175,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G1,G5,3,40,0.075,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G1,G2,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G1,G3,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G1,G8,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G10,G4,23,40,0.575,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G10,G2,12,40,0.3,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G10,G6,5,40,0.125,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G11,G2,13,40,0.325,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G11,G6,12,40,0.3,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G11,G4,9,40,0.225,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G11,G5,4,40,0.1,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G11,G3,2,40,0.05,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G2,G4,36,100,0.36,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G2,G6,36,100,0.36,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G2,G2,17,100,0.17,True
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G2,G5,5,100,0.05,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G2,G3,3,100,0.03,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G2,G9,3,100,0.03,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G3,G6,38,80,0.475,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G3,G4,15,80,0.1875,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G3,G5,12,80,0.15,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G3,G2,11,80,0.1375,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G3,G8,3,80,0.0375,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G3,G3,1,80,0.0125,True
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G4,46,140,0.32857142857142857,True
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G6,29,140,0.20714285714285716,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G2,28,140,0.2,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G8,20,140,0.14285714285714285,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G9,7,140,0.05,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G5,5,140,0.03571428571428571,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G1,4,140,0.02857142857142857,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G4,G3,1,140,0.007142857142857143,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G5,G6,34,80,0.425,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G5,G4,21,80,0.2625,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G5,G2,17,80,0.2125,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G5,G1,4,80,0.05,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G5,G3,4,80,0.05,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G6,86,160,0.5375,True
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G4,30,160,0.1875,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G5,18,160,0.1125,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G2,11,160,0.06875,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G3,10,160,0.0625,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G1,3,160,0.01875,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G7,1,160,0.00625,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G6,G8,1,160,0.00625,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G7,G6,15,40,0.375,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G7,G3,8,40,0.2,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G7,G1,5,40,0.125,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G7,G4,4,40,0.1,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G7,G9,4,40,0.1,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G7,G2,3,40,0.075,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G7,G8,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G8,G4,26,40,0.65,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G8,G6,9,40,0.225,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G8,G3,2,40,0.05,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G8,G2,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G8,G7,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G8,G9,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G1,17,40,0.425,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G9,11,40,0.275,True
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G6,4,40,0.1,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G4,3,40,0.075,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G5,2,40,0.05,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G2,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G3,1,40,0.025,False
+AsLS + SNV | 440 nm,AsLS + SNV,asls_snv,440 nm,G9,G8,1,40,0.025,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G1,G4,21,40,0.525,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G1,G9,13,40,0.325,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G1,G6,4,40,0.1,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G1,G5,2,40,0.05,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G10,G2,20,40,0.5,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G10,G4,11,40,0.275,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G10,G6,8,40,0.2,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G10,G3,1,40,0.025,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G11,G2,19,40,0.475,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G11,G4,14,40,0.35,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G11,G6,6,40,0.15,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G11,G5,1,40,0.025,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G2,34,100,0.34,True
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G6,33,100,0.33,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G4,18,100,0.18,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G9,6,100,0.06,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G7,3,100,0.03,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G1,2,100,0.02,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G3,2,100,0.02,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G5,1,100,0.01,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G2,G8,1,100,0.01,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G3,G6,33,80,0.4125,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G3,G4,17,80,0.2125,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G3,G2,13,80,0.1625,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G3,G5,10,80,0.125,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G3,G3,7,80,0.0875,True
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G4,G4,93,140,0.6642857142857143,True
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G4,G6,26,140,0.18571428571428572,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G4,G5,9,140,0.06428571428571428,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G4,G3,8,140,0.05714285714285714,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G4,G1,2,140,0.014285714285714285,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G4,G7,1,140,0.007142857142857143,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G4,G9,1,140,0.007142857142857143,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G5,G6,25,80,0.3125,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G5,G4,24,80,0.3,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G5,G2,14,80,0.175,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G5,G3,12,80,0.15,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G5,G1,2,80,0.025,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G5,G9,2,80,0.025,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G5,G5,1,80,0.0125,True
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G6,G6,86,160,0.5375,True
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G6,G2,33,160,0.20625,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G6,G4,27,160,0.16875,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G6,G5,8,160,0.05,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G6,G3,5,160,0.03125,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G6,G9,1,160,0.00625,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G7,G9,22,40,0.55,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G7,G7,12,40,0.3,True
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G7,G2,3,40,0.075,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G7,G6,2,40,0.05,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G7,G8,1,40,0.025,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G8,G4,17,40,0.425,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G8,G9,13,40,0.325,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G8,G6,5,40,0.125,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G8,G7,5,40,0.125,False
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G9,G9,34,40,0.85,True
+AsLS + SNV | Combined,AsLS + SNV,asls_snv,Combined,G9,G7,6,40,0.15,False
+Raw | 250 nm,Raw,raw,250 nm,G1,G6,16,40,0.4,False
+Raw | 250 nm,Raw,raw,250 nm,G1,G4,13,40,0.325,False
+Raw | 250 nm,Raw,raw,250 nm,G1,G2,5,40,0.125,False
+Raw | 250 nm,Raw,raw,250 nm,G1,G3,2,40,0.05,False
+Raw | 250 nm,Raw,raw,250 nm,G1,G8,2,40,0.05,False
+Raw | 250 nm,Raw,raw,250 nm,G1,G5,1,40,0.025,False
+Raw | 250 nm,Raw,raw,250 nm,G1,G9,1,40,0.025,False
+Raw | 250 nm,Raw,raw,250 nm,G10,G4,24,40,0.6,False
+Raw | 250 nm,Raw,raw,250 nm,G10,G6,9,40,0.225,False
+Raw | 250 nm,Raw,raw,250 nm,G10,G2,7,40,0.175,False
+Raw | 250 nm,Raw,raw,250 nm,G11,G4,24,40,0.6,False
+Raw | 250 nm,Raw,raw,250 nm,G11,G6,9,40,0.225,False
+Raw | 250 nm,Raw,raw,250 nm,G11,G2,7,40,0.175,False
+Raw | 250 nm,Raw,raw,250 nm,G2,G4,54,100,0.54,False
+Raw | 250 nm,Raw,raw,250 nm,G2,G6,22,100,0.22,False
+Raw | 250 nm,Raw,raw,250 nm,G2,G2,9,100,0.09,True
+Raw | 250 nm,Raw,raw,250 nm,G2,G3,6,100,0.06,False
+Raw | 250 nm,Raw,raw,250 nm,G2,G1,5,100,0.05,False
+Raw | 250 nm,Raw,raw,250 nm,G2,G8,2,100,0.02,False
+Raw | 250 nm,Raw,raw,250 nm,G2,G7,1,100,0.01,False
+Raw | 250 nm,Raw,raw,250 nm,G2,G9,1,100,0.01,False
+Raw | 250 nm,Raw,raw,250 nm,G3,G4,32,80,0.4,False
+Raw | 250 nm,Raw,raw,250 nm,G3,G6,26,80,0.325,False
+Raw | 250 nm,Raw,raw,250 nm,G3,G2,7,80,0.0875,False
+Raw | 250 nm,Raw,raw,250 nm,G3,G5,5,80,0.0625,False
+Raw | 250 nm,Raw,raw,250 nm,G3,G9,4,80,0.05,False
+Raw | 250 nm,Raw,raw,250 nm,G3,G7,3,80,0.0375,False
+Raw | 250 nm,Raw,raw,250 nm,G3,G8,3,80,0.0375,False
+Raw | 250 nm,Raw,raw,250 nm,G4,G4,61,140,0.4357142857142857,True
+Raw | 250 nm,Raw,raw,250 nm,G4,G6,41,140,0.29285714285714287,False
+Raw | 250 nm,Raw,raw,250 nm,G4,G2,28,140,0.2,False
+Raw | 250 nm,Raw,raw,250 nm,G4,G3,4,140,0.02857142857142857,False
+Raw | 250 nm,Raw,raw,250 nm,G4,G9,4,140,0.02857142857142857,False
+Raw | 250 nm,Raw,raw,250 nm,G4,G1,1,140,0.007142857142857143,False
+Raw | 250 nm,Raw,raw,250 nm,G4,G7,1,140,0.007142857142857143,False
+Raw | 250 nm,Raw,raw,250 nm,G5,G4,38,80,0.475,False
+Raw | 250 nm,Raw,raw,250 nm,G5,G6,24,80,0.3,False
+Raw | 250 nm,Raw,raw,250 nm,G5,G2,9,80,0.1125,False
+Raw | 250 nm,Raw,raw,250 nm,G5,G1,6,80,0.075,False
+Raw | 250 nm,Raw,raw,250 nm,G5,G3,2,80,0.025,False
+Raw | 250 nm,Raw,raw,250 nm,G5,G8,1,80,0.0125,False
+Raw | 250 nm,Raw,raw,250 nm,G6,G4,57,160,0.35625,False
+Raw | 250 nm,Raw,raw,250 nm,G6,G6,44,160,0.275,True
+Raw | 250 nm,Raw,raw,250 nm,G6,G2,16,160,0.1,False
+Raw | 250 nm,Raw,raw,250 nm,G6,G7,13,160,0.08125,False
+Raw | 250 nm,Raw,raw,250 nm,G6,G1,9,160,0.05625,False
+Raw | 250 nm,Raw,raw,250 nm,G6,G3,9,160,0.05625,False
+Raw | 250 nm,Raw,raw,250 nm,G6,G5,7,160,0.04375,False
+Raw | 250 nm,Raw,raw,250 nm,G6,G9,5,160,0.03125,False
+Raw | 250 nm,Raw,raw,250 nm,G7,G6,16,40,0.4,False
+Raw | 250 nm,Raw,raw,250 nm,G7,G7,12,40,0.3,True
+Raw | 250 nm,Raw,raw,250 nm,G7,G9,5,40,0.125,False
+Raw | 250 nm,Raw,raw,250 nm,G7,G3,4,40,0.1,False
+Raw | 250 nm,Raw,raw,250 nm,G7,G8,3,40,0.075,False
+Raw | 250 nm,Raw,raw,250 nm,G8,G4,17,40,0.425,False
+Raw | 250 nm,Raw,raw,250 nm,G8,G6,8,40,0.2,False
+Raw | 250 nm,Raw,raw,250 nm,G8,G3,6,40,0.15,False
+Raw | 250 nm,Raw,raw,250 nm,G8,G9,4,40,0.1,False
+Raw | 250 nm,Raw,raw,250 nm,G8,G2,3,40,0.075,False
+Raw | 250 nm,Raw,raw,250 nm,G8,G7,2,40,0.05,False
+Raw | 250 nm,Raw,raw,250 nm,G9,G3,12,40,0.3,False
+Raw | 250 nm,Raw,raw,250 nm,G9,G4,10,40,0.25,False
+Raw | 250 nm,Raw,raw,250 nm,G9,G7,7,40,0.175,False
+Raw | 250 nm,Raw,raw,250 nm,G9,G6,5,40,0.125,False
+Raw | 250 nm,Raw,raw,250 nm,G9,G8,3,40,0.075,False
+Raw | 250 nm,Raw,raw,250 nm,G9,G2,2,40,0.05,False
+Raw | 250 nm,Raw,raw,250 nm,G9,G1,1,40,0.025,False
+Raw | 308 nm,Raw,raw,308 nm,G1,G4,12,40,0.3,False
+Raw | 308 nm,Raw,raw,308 nm,G1,G7,12,40,0.3,False
+Raw | 308 nm,Raw,raw,308 nm,G1,G2,4,40,0.1,False
+Raw | 308 nm,Raw,raw,308 nm,G1,G6,4,40,0.1,False
+Raw | 308 nm,Raw,raw,308 nm,G1,G8,4,40,0.1,False
+Raw | 308 nm,Raw,raw,308 nm,G1,G9,4,40,0.1,False
+Raw | 308 nm,Raw,raw,308 nm,G10,G4,24,40,0.6,False
+Raw | 308 nm,Raw,raw,308 nm,G10,G2,8,40,0.2,False
+Raw | 308 nm,Raw,raw,308 nm,G10,G6,8,40,0.2,False
+Raw | 308 nm,Raw,raw,308 nm,G11,G4,24,40,0.6,False
+Raw | 308 nm,Raw,raw,308 nm,G11,G2,8,40,0.2,False
+Raw | 308 nm,Raw,raw,308 nm,G11,G6,8,40,0.2,False
+Raw | 308 nm,Raw,raw,308 nm,G2,G4,56,100,0.56,False
+Raw | 308 nm,Raw,raw,308 nm,G2,G6,14,100,0.14,False
+Raw | 308 nm,Raw,raw,308 nm,G2,G2,12,100,0.12,True
+Raw | 308 nm,Raw,raw,308 nm,G2,G7,10,100,0.1,False
+Raw | 308 nm,Raw,raw,308 nm,G2,G3,5,100,0.05,False
+Raw | 308 nm,Raw,raw,308 nm,G2,G1,3,100,0.03,False
+Raw | 308 nm,Raw,raw,308 nm,G3,G4,30,80,0.375,False
+Raw | 308 nm,Raw,raw,308 nm,G3,G3,21,80,0.2625,True
+Raw | 308 nm,Raw,raw,308 nm,G3,G6,15,80,0.1875,False
+Raw | 308 nm,Raw,raw,308 nm,G3,G2,7,80,0.0875,False
+Raw | 308 nm,Raw,raw,308 nm,G3,G5,7,80,0.0875,False
+Raw | 308 nm,Raw,raw,308 nm,G4,G4,60,140,0.42857142857142855,True
+Raw | 308 nm,Raw,raw,308 nm,G4,G2,32,140,0.22857142857142856,False
+Raw | 308 nm,Raw,raw,308 nm,G4,G6,32,140,0.22857142857142856,False
+Raw | 308 nm,Raw,raw,308 nm,G4,G3,9,140,0.06428571428571428,False
+Raw | 308 nm,Raw,raw,308 nm,G4,G1,3,140,0.02142857142857143,False
+Raw | 308 nm,Raw,raw,308 nm,G4,G5,3,140,0.02142857142857143,False
+Raw | 308 nm,Raw,raw,308 nm,G4,G7,1,140,0.007142857142857143,False
+Raw | 308 nm,Raw,raw,308 nm,G5,G4,45,80,0.5625,False
+Raw | 308 nm,Raw,raw,308 nm,G5,G2,12,80,0.15,False
+Raw | 308 nm,Raw,raw,308 nm,G5,G3,12,80,0.15,False
+Raw | 308 nm,Raw,raw,308 nm,G5,G6,11,80,0.1375,False
+Raw | 308 nm,Raw,raw,308 nm,G6,G4,83,160,0.51875,False
+Raw | 308 nm,Raw,raw,308 nm,G6,G6,30,160,0.1875,True
+Raw | 308 nm,Raw,raw,308 nm,G6,G3,23,160,0.14375,False
+Raw | 308 nm,Raw,raw,308 nm,G6,G2,17,160,0.10625,False
+Raw | 308 nm,Raw,raw,308 nm,G6,G5,5,160,0.03125,False
+Raw | 308 nm,Raw,raw,308 nm,G6,G1,2,160,0.0125,False
+Raw | 308 nm,Raw,raw,308 nm,G7,G7,36,40,0.9,True
+Raw | 308 nm,Raw,raw,308 nm,G7,G1,3,40,0.075,False
+Raw | 308 nm,Raw,raw,308 nm,G7,G9,1,40,0.025,False
+Raw | 308 nm,Raw,raw,308 nm,G8,G4,15,40,0.375,False
+Raw | 308 nm,Raw,raw,308 nm,G8,G7,12,40,0.3,False
+Raw | 308 nm,Raw,raw,308 nm,G8,G9,7,40,0.175,False
+Raw | 308 nm,Raw,raw,308 nm,G8,G6,3,40,0.075,False
+Raw | 308 nm,Raw,raw,308 nm,G8,G2,2,40,0.05,False
+Raw | 308 nm,Raw,raw,308 nm,G8,G1,1,40,0.025,False
+Raw | 308 nm,Raw,raw,308 nm,G9,G9,18,40,0.45,True
+Raw | 308 nm,Raw,raw,308 nm,G9,G7,10,40,0.25,False
+Raw | 308 nm,Raw,raw,308 nm,G9,G8,7,40,0.175,False
+Raw | 308 nm,Raw,raw,308 nm,G9,G1,5,40,0.125,False
+Raw | 440 nm,Raw,raw,440 nm,G1,G6,12,40,0.3,False
+Raw | 440 nm,Raw,raw,440 nm,G1,G2,11,40,0.275,False
+Raw | 440 nm,Raw,raw,440 nm,G1,G4,10,40,0.25,False
+Raw | 440 nm,Raw,raw,440 nm,G1,G7,5,40,0.125,False
+Raw | 440 nm,Raw,raw,440 nm,G1,G9,2,40,0.05,False
+Raw | 440 nm,Raw,raw,440 nm,G10,G4,21,40,0.525,False
+Raw | 440 nm,Raw,raw,440 nm,G10,G6,10,40,0.25,False
+Raw | 440 nm,Raw,raw,440 nm,G10,G2,9,40,0.225,False
+Raw | 440 nm,Raw,raw,440 nm,G11,G4,21,40,0.525,False
+Raw | 440 nm,Raw,raw,440 nm,G11,G6,10,40,0.25,False
+Raw | 440 nm,Raw,raw,440 nm,G11,G2,9,40,0.225,False
+Raw | 440 nm,Raw,raw,440 nm,G2,G4,49,100,0.49,False
+Raw | 440 nm,Raw,raw,440 nm,G2,G6,21,100,0.21,False
+Raw | 440 nm,Raw,raw,440 nm,G2,G2,12,100,0.12,True
+Raw | 440 nm,Raw,raw,440 nm,G2,G9,7,100,0.07,False
+Raw | 440 nm,Raw,raw,440 nm,G2,G3,6,100,0.06,False
+Raw | 440 nm,Raw,raw,440 nm,G2,G1,3,100,0.03,False
+Raw | 440 nm,Raw,raw,440 nm,G2,G7,2,100,0.02,False
+Raw | 440 nm,Raw,raw,440 nm,G3,G4,29,80,0.3625,False
+Raw | 440 nm,Raw,raw,440 nm,G3,G6,23,80,0.2875,False
+Raw | 440 nm,Raw,raw,440 nm,G3,G2,13,80,0.1625,False
+Raw | 440 nm,Raw,raw,440 nm,G3,G9,5,80,0.0625,False
+Raw | 440 nm,Raw,raw,440 nm,G3,G5,4,80,0.05,False
+Raw | 440 nm,Raw,raw,440 nm,G3,G7,3,80,0.0375,False
+Raw | 440 nm,Raw,raw,440 nm,G3,G8,3,80,0.0375,False
+Raw | 440 nm,Raw,raw,440 nm,G4,G4,51,140,0.36428571428571427,True
+Raw | 440 nm,Raw,raw,440 nm,G4,G6,38,140,0.2714285714285714,False
+Raw | 440 nm,Raw,raw,440 nm,G4,G2,35,140,0.25,False
+Raw | 440 nm,Raw,raw,440 nm,G4,G3,9,140,0.06428571428571428,False
+Raw | 440 nm,Raw,raw,440 nm,G4,G8,3,140,0.02142857142857143,False
+Raw | 440 nm,Raw,raw,440 nm,G4,G9,2,140,0.014285714285714285,False
+Raw | 440 nm,Raw,raw,440 nm,G4,G1,1,140,0.007142857142857143,False
+Raw | 440 nm,Raw,raw,440 nm,G4,G7,1,140,0.007142857142857143,False
+Raw | 440 nm,Raw,raw,440 nm,G5,G4,33,80,0.4125,False
+Raw | 440 nm,Raw,raw,440 nm,G5,G6,18,80,0.225,False
+Raw | 440 nm,Raw,raw,440 nm,G5,G2,17,80,0.2125,False
+Raw | 440 nm,Raw,raw,440 nm,G5,G3,6,80,0.075,False
+Raw | 440 nm,Raw,raw,440 nm,G5,G9,6,80,0.075,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G4,58,160,0.3625,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G6,54,160,0.3375,True
+Raw | 440 nm,Raw,raw,440 nm,G6,G2,18,160,0.1125,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G3,9,160,0.05625,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G9,8,160,0.05,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G7,6,160,0.0375,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G1,3,160,0.01875,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G8,3,160,0.01875,False
+Raw | 440 nm,Raw,raw,440 nm,G6,G5,1,160,0.00625,False
+Raw | 440 nm,Raw,raw,440 nm,G7,G6,14,40,0.35,False
+Raw | 440 nm,Raw,raw,440 nm,G7,G7,9,40,0.225,True
+Raw | 440 nm,Raw,raw,440 nm,G7,G1,4,40,0.1,False
+Raw | 440 nm,Raw,raw,440 nm,G7,G3,4,40,0.1,False
+Raw | 440 nm,Raw,raw,440 nm,G7,G4,4,40,0.1,False
+Raw | 440 nm,Raw,raw,440 nm,G7,G8,3,40,0.075,False
+Raw | 440 nm,Raw,raw,440 nm,G7,G2,2,40,0.05,False
+Raw | 440 nm,Raw,raw,440 nm,G8,G6,22,40,0.55,False
+Raw | 440 nm,Raw,raw,440 nm,G8,G4,13,40,0.325,False
+Raw | 440 nm,Raw,raw,440 nm,G8,G2,4,40,0.1,False
+Raw | 440 nm,Raw,raw,440 nm,G8,G7,1,40,0.025,False
+Raw | 440 nm,Raw,raw,440 nm,G9,G9,24,40,0.6,True
+Raw | 440 nm,Raw,raw,440 nm,G9,G6,7,40,0.175,False
+Raw | 440 nm,Raw,raw,440 nm,G9,G2,6,40,0.15,False
+Raw | 440 nm,Raw,raw,440 nm,G9,G1,3,40,0.075,False
+Raw | Combined,Raw,raw,Combined,G1,G7,13,40,0.325,False
+Raw | Combined,Raw,raw,Combined,G1,G4,10,40,0.25,False
+Raw | Combined,Raw,raw,Combined,G1,G2,5,40,0.125,False
+Raw | Combined,Raw,raw,Combined,G1,G6,5,40,0.125,False
+Raw | Combined,Raw,raw,Combined,G1,G9,4,40,0.1,False
+Raw | Combined,Raw,raw,Combined,G1,G8,3,40,0.075,False
+Raw | Combined,Raw,raw,Combined,G10,G4,23,40,0.575,False
+Raw | Combined,Raw,raw,Combined,G10,G2,9,40,0.225,False
+Raw | Combined,Raw,raw,Combined,G10,G6,8,40,0.2,False
+Raw | Combined,Raw,raw,Combined,G11,G4,23,40,0.575,False
+Raw | Combined,Raw,raw,Combined,G11,G2,9,40,0.225,False
+Raw | Combined,Raw,raw,Combined,G11,G6,8,40,0.2,False
+Raw | Combined,Raw,raw,Combined,G2,G4,52,100,0.52,False
+Raw | Combined,Raw,raw,Combined,G2,G6,17,100,0.17,False
+Raw | Combined,Raw,raw,Combined,G2,G2,13,100,0.13,True
+Raw | Combined,Raw,raw,Combined,G2,G7,8,100,0.08,False
+Raw | Combined,Raw,raw,Combined,G2,G1,5,100,0.05,False
+Raw | Combined,Raw,raw,Combined,G2,G3,5,100,0.05,False
+Raw | Combined,Raw,raw,Combined,G3,G4,32,80,0.4,False
+Raw | Combined,Raw,raw,Combined,G3,G6,24,80,0.3,False
+Raw | Combined,Raw,raw,Combined,G3,G2,12,80,0.15,False
+Raw | Combined,Raw,raw,Combined,G3,G5,7,80,0.0875,False
+Raw | Combined,Raw,raw,Combined,G3,G7,3,80,0.0375,False
+Raw | Combined,Raw,raw,Combined,G3,G3,1,80,0.0125,True
+Raw | Combined,Raw,raw,Combined,G3,G9,1,80,0.0125,False
+Raw | Combined,Raw,raw,Combined,G4,G4,57,140,0.40714285714285714,True
+Raw | Combined,Raw,raw,Combined,G4,G2,36,140,0.2571428571428571,False
+Raw | Combined,Raw,raw,Combined,G4,G6,31,140,0.22142857142857142,False
+Raw | Combined,Raw,raw,Combined,G4,G3,9,140,0.06428571428571428,False
+Raw | Combined,Raw,raw,Combined,G4,G1,3,140,0.02142857142857143,False
+Raw | Combined,Raw,raw,Combined,G4,G7,2,140,0.014285714285714285,False
+Raw | Combined,Raw,raw,Combined,G4,G8,1,140,0.007142857142857143,False
+Raw | Combined,Raw,raw,Combined,G4,G9,1,140,0.007142857142857143,False
+Raw | Combined,Raw,raw,Combined,G5,G4,36,80,0.45,False
+Raw | Combined,Raw,raw,Combined,G5,G2,17,80,0.2125,False
+Raw | Combined,Raw,raw,Combined,G5,G6,15,80,0.1875,False
+Raw | Combined,Raw,raw,Combined,G5,G3,8,80,0.1,False
+Raw | Combined,Raw,raw,Combined,G5,G9,3,80,0.0375,False
+Raw | Combined,Raw,raw,Combined,G5,G7,1,80,0.0125,False
+Raw | Combined,Raw,raw,Combined,G6,G4,67,160,0.41875,False
+Raw | Combined,Raw,raw,Combined,G6,G6,53,160,0.33125,True
+Raw | Combined,Raw,raw,Combined,G6,G2,20,160,0.125,False
+Raw | Combined,Raw,raw,Combined,G6,G3,10,160,0.0625,False
+Raw | Combined,Raw,raw,Combined,G6,G9,4,160,0.025,False
+Raw | Combined,Raw,raw,Combined,G6,G5,3,160,0.01875,False
+Raw | Combined,Raw,raw,Combined,G6,G1,1,160,0.00625,False
+Raw | Combined,Raw,raw,Combined,G6,G7,1,160,0.00625,False
+Raw | Combined,Raw,raw,Combined,G6,G8,1,160,0.00625,False
+Raw | Combined,Raw,raw,Combined,G7,G7,23,40,0.575,True
+Raw | Combined,Raw,raw,Combined,G7,G8,5,40,0.125,False
+Raw | Combined,Raw,raw,Combined,G7,G9,5,40,0.125,False
+Raw | Combined,Raw,raw,Combined,G7,G1,3,40,0.075,False
+Raw | Combined,Raw,raw,Combined,G7,G3,3,40,0.075,False
+Raw | Combined,Raw,raw,Combined,G7,G2,1,40,0.025,False
+Raw | Combined,Raw,raw,Combined,G8,G4,15,40,0.375,False
+Raw | Combined,Raw,raw,Combined,G8,G7,10,40,0.25,False
+Raw | Combined,Raw,raw,Combined,G8,G6,7,40,0.175,False
+Raw | Combined,Raw,raw,Combined,G8,G2,3,40,0.075,False
+Raw | Combined,Raw,raw,Combined,G8,G1,2,40,0.05,False
+Raw | Combined,Raw,raw,Combined,G8,G9,2,40,0.05,False
+Raw | Combined,Raw,raw,Combined,G8,G3,1,40,0.025,False
+Raw | Combined,Raw,raw,Combined,G9,G9,20,40,0.5,True
+Raw | Combined,Raw,raw,Combined,G9,G7,11,40,0.275,False
+Raw | Combined,Raw,raw,Combined,G9,G8,3,40,0.075,False
+Raw | Combined,Raw,raw,Combined,G9,G1,2,40,0.05,False
+Raw | Combined,Raw,raw,Combined,G9,G6,2,40,0.05,False
+Raw | Combined,Raw,raw,Combined,G9,G2,1,40,0.025,False
+Raw | Combined,Raw,raw,Combined,G9,G3,1,40,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G1,G4,23,40,0.575,False
+SNV | 250 nm,SNV,snv,250 nm,G1,G6,10,40,0.25,False
+SNV | 250 nm,SNV,snv,250 nm,G1,G9,3,40,0.075,False
+SNV | 250 nm,SNV,snv,250 nm,G1,G3,2,40,0.05,False
+SNV | 250 nm,SNV,snv,250 nm,G1,G5,2,40,0.05,False
+SNV | 250 nm,SNV,snv,250 nm,G10,G2,25,40,0.625,False
+SNV | 250 nm,SNV,snv,250 nm,G10,G11,7,40,0.175,False
+SNV | 250 nm,SNV,snv,250 nm,G10,G6,7,40,0.175,False
+SNV | 250 nm,SNV,snv,250 nm,G10,G5,1,40,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G11,G2,21,40,0.525,False
+SNV | 250 nm,SNV,snv,250 nm,G11,G11,12,40,0.3,True
+SNV | 250 nm,SNV,snv,250 nm,G11,G5,4,40,0.1,False
+SNV | 250 nm,SNV,snv,250 nm,G11,G10,1,40,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G11,G4,1,40,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G11,G6,1,40,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G2,G2,45,100,0.45,True
+SNV | 250 nm,SNV,snv,250 nm,G2,G6,31,100,0.31,False
+SNV | 250 nm,SNV,snv,250 nm,G2,G11,11,100,0.11,False
+SNV | 250 nm,SNV,snv,250 nm,G2,G3,8,100,0.08,False
+SNV | 250 nm,SNV,snv,250 nm,G2,G8,2,100,0.02,False
+SNV | 250 nm,SNV,snv,250 nm,G2,G1,1,100,0.01,False
+SNV | 250 nm,SNV,snv,250 nm,G2,G10,1,100,0.01,False
+SNV | 250 nm,SNV,snv,250 nm,G2,G5,1,100,0.01,False
+SNV | 250 nm,SNV,snv,250 nm,G3,G6,46,80,0.575,False
+SNV | 250 nm,SNV,snv,250 nm,G3,G4,25,80,0.3125,False
+SNV | 250 nm,SNV,snv,250 nm,G3,G2,4,80,0.05,False
+SNV | 250 nm,SNV,snv,250 nm,G3,G5,2,80,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G3,G1,1,80,0.0125,False
+SNV | 250 nm,SNV,snv,250 nm,G3,G3,1,80,0.0125,True
+SNV | 250 nm,SNV,snv,250 nm,G3,G9,1,80,0.0125,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G4,84,140,0.6,True
+SNV | 250 nm,SNV,snv,250 nm,G4,G6,21,140,0.15,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G5,9,140,0.06428571428571428,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G1,8,140,0.05714285714285714,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G2,8,140,0.05714285714285714,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G9,5,140,0.03571428571428571,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G11,2,140,0.014285714285714285,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G3,2,140,0.014285714285714285,False
+SNV | 250 nm,SNV,snv,250 nm,G4,G8,1,140,0.007142857142857143,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G2,24,80,0.3,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G6,24,80,0.3,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G4,19,80,0.2375,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G3,4,80,0.05,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G11,3,80,0.0375,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G9,3,80,0.0375,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G8,2,80,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G5,G10,1,80,0.0125,False
+SNV | 250 nm,SNV,snv,250 nm,G6,G6,86,160,0.5375,True
+SNV | 250 nm,SNV,snv,250 nm,G6,G4,23,160,0.14375,False
+SNV | 250 nm,SNV,snv,250 nm,G6,G3,19,160,0.11875,False
+SNV | 250 nm,SNV,snv,250 nm,G6,G2,15,160,0.09375,False
+SNV | 250 nm,SNV,snv,250 nm,G6,G5,12,160,0.075,False
+SNV | 250 nm,SNV,snv,250 nm,G6,G1,3,160,0.01875,False
+SNV | 250 nm,SNV,snv,250 nm,G6,G9,2,160,0.0125,False
+SNV | 250 nm,SNV,snv,250 nm,G7,G6,32,40,0.8,False
+SNV | 250 nm,SNV,snv,250 nm,G7,G2,4,40,0.1,False
+SNV | 250 nm,SNV,snv,250 nm,G7,G3,4,40,0.1,False
+SNV | 250 nm,SNV,snv,250 nm,G8,G4,18,40,0.45,False
+SNV | 250 nm,SNV,snv,250 nm,G8,G6,17,40,0.425,False
+SNV | 250 nm,SNV,snv,250 nm,G8,G3,4,40,0.1,False
+SNV | 250 nm,SNV,snv,250 nm,G8,G2,1,40,0.025,False
+SNV | 250 nm,SNV,snv,250 nm,G9,G6,16,40,0.4,False
+SNV | 250 nm,SNV,snv,250 nm,G9,G4,9,40,0.225,False
+SNV | 250 nm,SNV,snv,250 nm,G9,G3,5,40,0.125,False
+SNV | 250 nm,SNV,snv,250 nm,G9,G2,4,40,0.1,False
+SNV | 250 nm,SNV,snv,250 nm,G9,G1,3,40,0.075,False
+SNV | 250 nm,SNV,snv,250 nm,G9,G5,2,40,0.05,False
+SNV | 250 nm,SNV,snv,250 nm,G9,G8,1,40,0.025,False
+SNV | 308 nm,SNV,snv,308 nm,G1,G4,22,40,0.55,False
+SNV | 308 nm,SNV,snv,308 nm,G1,G9,7,40,0.175,False
+SNV | 308 nm,SNV,snv,308 nm,G1,G7,5,40,0.125,False
+SNV | 308 nm,SNV,snv,308 nm,G1,G2,3,40,0.075,False
+SNV | 308 nm,SNV,snv,308 nm,G1,G5,1,40,0.025,False
+SNV | 308 nm,SNV,snv,308 nm,G1,G6,1,40,0.025,False
+SNV | 308 nm,SNV,snv,308 nm,G1,G8,1,40,0.025,False
+SNV | 308 nm,SNV,snv,308 nm,G10,G2,19,40,0.475,False
+SNV | 308 nm,SNV,snv,308 nm,G10,G4,15,40,0.375,False
+SNV | 308 nm,SNV,snv,308 nm,G10,G6,6,40,0.15,False
+SNV | 308 nm,SNV,snv,308 nm,G11,G2,28,40,0.7,False
+SNV | 308 nm,SNV,snv,308 nm,G11,G4,7,40,0.175,False
+SNV | 308 nm,SNV,snv,308 nm,G11,G6,4,40,0.1,False
+SNV | 308 nm,SNV,snv,308 nm,G11,G3,1,40,0.025,False
+SNV | 308 nm,SNV,snv,308 nm,G2,G2,27,100,0.27,True
+SNV | 308 nm,SNV,snv,308 nm,G2,G4,22,100,0.22,False
+SNV | 308 nm,SNV,snv,308 nm,G2,G6,20,100,0.2,False
+SNV | 308 nm,SNV,snv,308 nm,G2,G7,11,100,0.11,False
+SNV | 308 nm,SNV,snv,308 nm,G2,G5,10,100,0.1,False
+SNV | 308 nm,SNV,snv,308 nm,G2,G3,9,100,0.09,False
+SNV | 308 nm,SNV,snv,308 nm,G2,G8,1,100,0.01,False
+SNV | 308 nm,SNV,snv,308 nm,G3,G4,23,80,0.2875,False
+SNV | 308 nm,SNV,snv,308 nm,G3,G2,20,80,0.25,False
+SNV | 308 nm,SNV,snv,308 nm,G3,G5,15,80,0.1875,False
+SNV | 308 nm,SNV,snv,308 nm,G3,G6,13,80,0.1625,False
+SNV | 308 nm,SNV,snv,308 nm,G3,G3,9,80,0.1125,True
+SNV | 308 nm,SNV,snv,308 nm,G4,G4,81,140,0.5785714285714286,True
+SNV | 308 nm,SNV,snv,308 nm,G4,G6,21,140,0.15,False
+SNV | 308 nm,SNV,snv,308 nm,G4,G2,18,140,0.12857142857142856,False
+SNV | 308 nm,SNV,snv,308 nm,G4,G3,12,140,0.08571428571428572,False
+SNV | 308 nm,SNV,snv,308 nm,G4,G5,7,140,0.05,False
+SNV | 308 nm,SNV,snv,308 nm,G4,G8,1,140,0.007142857142857143,False
+SNV | 308 nm,SNV,snv,308 nm,G5,G4,30,80,0.375,False
+SNV | 308 nm,SNV,snv,308 nm,G5,G2,21,80,0.2625,False
+SNV | 308 nm,SNV,snv,308 nm,G5,G6,15,80,0.1875,False
+SNV | 308 nm,SNV,snv,308 nm,G5,G3,13,80,0.1625,False
+SNV | 308 nm,SNV,snv,308 nm,G5,G9,1,80,0.0125,False
+SNV | 308 nm,SNV,snv,308 nm,G6,G4,69,160,0.43125,False
+SNV | 308 nm,SNV,snv,308 nm,G6,G6,51,160,0.31875,True
+SNV | 308 nm,SNV,snv,308 nm,G6,G2,26,160,0.1625,False
+SNV | 308 nm,SNV,snv,308 nm,G6,G3,9,160,0.05625,False
+SNV | 308 nm,SNV,snv,308 nm,G6,G5,3,160,0.01875,False
+SNV | 308 nm,SNV,snv,308 nm,G6,G7,1,160,0.00625,False
+SNV | 308 nm,SNV,snv,308 nm,G6,G9,1,160,0.00625,False
+SNV | 308 nm,SNV,snv,308 nm,G7,G7,24,40,0.6,True
+SNV | 308 nm,SNV,snv,308 nm,G7,G9,9,40,0.225,False
+SNV | 308 nm,SNV,snv,308 nm,G7,G2,6,40,0.15,False
+SNV | 308 nm,SNV,snv,308 nm,G7,G6,1,40,0.025,False
+SNV | 308 nm,SNV,snv,308 nm,G8,G4,23,40,0.575,False
+SNV | 308 nm,SNV,snv,308 nm,G8,G7,9,40,0.225,False
+SNV | 308 nm,SNV,snv,308 nm,G8,G9,6,40,0.15,False
+SNV | 308 nm,SNV,snv,308 nm,G8,G6,2,40,0.05,False
+SNV | 308 nm,SNV,snv,308 nm,G9,G9,33,40,0.825,True
+SNV | 308 nm,SNV,snv,308 nm,G9,G7,6,40,0.15,False
+SNV | 308 nm,SNV,snv,308 nm,G9,G4,1,40,0.025,False
+SNV | 440 nm,SNV,snv,440 nm,G1,G4,16,40,0.4,False
+SNV | 440 nm,SNV,snv,440 nm,G1,G6,9,40,0.225,False
+SNV | 440 nm,SNV,snv,440 nm,G1,G5,6,40,0.15,False
+SNV | 440 nm,SNV,snv,440 nm,G1,G9,4,40,0.1,False
+SNV | 440 nm,SNV,snv,440 nm,G1,G2,3,40,0.075,False
+SNV | 440 nm,SNV,snv,440 nm,G1,G3,2,40,0.05,False
+SNV | 440 nm,SNV,snv,440 nm,G10,G4,16,40,0.4,False
+SNV | 440 nm,SNV,snv,440 nm,G10,G6,14,40,0.35,False
+SNV | 440 nm,SNV,snv,440 nm,G10,G2,10,40,0.25,False
+SNV | 440 nm,SNV,snv,440 nm,G11,G2,16,40,0.4,False
+SNV | 440 nm,SNV,snv,440 nm,G11,G4,9,40,0.225,False
+SNV | 440 nm,SNV,snv,440 nm,G11,G6,8,40,0.2,False
+SNV | 440 nm,SNV,snv,440 nm,G11,G5,4,40,0.1,False
+SNV | 440 nm,SNV,snv,440 nm,G11,G3,3,40,0.075,False
+SNV | 440 nm,SNV,snv,440 nm,G2,G4,46,100,0.46,False
+SNV | 440 nm,SNV,snv,440 nm,G2,G6,31,100,0.31,False
+SNV | 440 nm,SNV,snv,440 nm,G2,G2,13,100,0.13,True
+SNV | 440 nm,SNV,snv,440 nm,G2,G3,6,100,0.06,False
+SNV | 440 nm,SNV,snv,440 nm,G2,G5,2,100,0.02,False
+SNV | 440 nm,SNV,snv,440 nm,G2,G1,1,100,0.01,False
+SNV | 440 nm,SNV,snv,440 nm,G2,G9,1,100,0.01,False
+SNV | 440 nm,SNV,snv,440 nm,G3,G6,40,80,0.5,False
+SNV | 440 nm,SNV,snv,440 nm,G3,G4,19,80,0.2375,False
+SNV | 440 nm,SNV,snv,440 nm,G3,G2,10,80,0.125,False
+SNV | 440 nm,SNV,snv,440 nm,G3,G8,5,80,0.0625,False
+SNV | 440 nm,SNV,snv,440 nm,G3,G5,4,80,0.05,False
+SNV | 440 nm,SNV,snv,440 nm,G3,G9,2,80,0.025,False
+SNV | 440 nm,SNV,snv,440 nm,G4,G4,46,140,0.32857142857142857,True
+SNV | 440 nm,SNV,snv,440 nm,G4,G2,28,140,0.2,False
+SNV | 440 nm,SNV,snv,440 nm,G4,G6,26,140,0.18571428571428572,False
+SNV | 440 nm,SNV,snv,440 nm,G4,G8,19,140,0.1357142857142857,False
+SNV | 440 nm,SNV,snv,440 nm,G4,G5,8,140,0.05714285714285714,False
+SNV | 440 nm,SNV,snv,440 nm,G4,G9,6,140,0.04285714285714286,False
+SNV | 440 nm,SNV,snv,440 nm,G4,G1,4,140,0.02857142857142857,False
+SNV | 440 nm,SNV,snv,440 nm,G4,G3,3,140,0.02142857142857143,False
+SNV | 440 nm,SNV,snv,440 nm,G5,G6,33,80,0.4125,False
+SNV | 440 nm,SNV,snv,440 nm,G5,G4,28,80,0.35,False
+SNV | 440 nm,SNV,snv,440 nm,G5,G2,13,80,0.1625,False
+SNV | 440 nm,SNV,snv,440 nm,G5,G1,3,80,0.0375,False
+SNV | 440 nm,SNV,snv,440 nm,G5,G3,2,80,0.025,False
+SNV | 440 nm,SNV,snv,440 nm,G5,G5,1,80,0.0125,True
+SNV | 440 nm,SNV,snv,440 nm,G6,G6,90,160,0.5625,True
+SNV | 440 nm,SNV,snv,440 nm,G6,G4,25,160,0.15625,False
+SNV | 440 nm,SNV,snv,440 nm,G6,G2,16,160,0.1,False
+SNV | 440 nm,SNV,snv,440 nm,G6,G5,11,160,0.06875,False
+SNV | 440 nm,SNV,snv,440 nm,G6,G3,8,160,0.05,False
+SNV | 440 nm,SNV,snv,440 nm,G6,G1,5,160,0.03125,False
+SNV | 440 nm,SNV,snv,440 nm,G6,G9,3,160,0.01875,False
+SNV | 440 nm,SNV,snv,440 nm,G6,G7,1,160,0.00625,False
+SNV | 440 nm,SNV,snv,440 nm,G6,G8,1,160,0.00625,False
+SNV | 440 nm,SNV,snv,440 nm,G7,G6,18,40,0.45,False
+SNV | 440 nm,SNV,snv,440 nm,G7,G3,7,40,0.175,False
+SNV | 440 nm,SNV,snv,440 nm,G7,G2,6,40,0.15,False
+SNV | 440 nm,SNV,snv,440 nm,G7,G1,5,40,0.125,False
+SNV | 440 nm,SNV,snv,440 nm,G7,G9,3,40,0.075,False
+SNV | 440 nm,SNV,snv,440 nm,G7,G7,1,40,0.025,True
+SNV | 440 nm,SNV,snv,440 nm,G8,G4,20,40,0.5,False
+SNV | 440 nm,SNV,snv,440 nm,G8,G6,17,40,0.425,False
+SNV | 440 nm,SNV,snv,440 nm,G8,G3,3,40,0.075,False
+SNV | 440 nm,SNV,snv,440 nm,G9,G1,13,40,0.325,False
+SNV | 440 nm,SNV,snv,440 nm,G9,G9,8,40,0.2,True
+SNV | 440 nm,SNV,snv,440 nm,G9,G4,5,40,0.125,False
+SNV | 440 nm,SNV,snv,440 nm,G9,G6,5,40,0.125,False
+SNV | 440 nm,SNV,snv,440 nm,G9,G2,4,40,0.1,False
+SNV | 440 nm,SNV,snv,440 nm,G9,G5,4,40,0.1,False
+SNV | 440 nm,SNV,snv,440 nm,G9,G3,1,40,0.025,False
+SNV | Combined,SNV,snv,Combined,G1,G4,23,40,0.575,False
+SNV | Combined,SNV,snv,Combined,G1,G9,9,40,0.225,False
+SNV | Combined,SNV,snv,Combined,G1,G6,4,40,0.1,False
+SNV | Combined,SNV,snv,Combined,G1,G7,3,40,0.075,False
+SNV | Combined,SNV,snv,Combined,G1,G5,1,40,0.025,False
+SNV | Combined,SNV,snv,Combined,G10,G2,15,40,0.375,False
+SNV | Combined,SNV,snv,Combined,G10,G6,15,40,0.375,False
+SNV | Combined,SNV,snv,Combined,G10,G4,10,40,0.25,False
+SNV | Combined,SNV,snv,Combined,G11,G2,19,40,0.475,False
+SNV | Combined,SNV,snv,Combined,G11,G4,13,40,0.325,False
+SNV | Combined,SNV,snv,Combined,G11,G6,4,40,0.1,False
+SNV | Combined,SNV,snv,Combined,G11,G3,2,40,0.05,False
+SNV | Combined,SNV,snv,Combined,G11,G5,2,40,0.05,False
+SNV | Combined,SNV,snv,Combined,G2,G6,31,100,0.31,False
+SNV | Combined,SNV,snv,Combined,G2,G2,19,100,0.19,True
+SNV | Combined,SNV,snv,Combined,G2,G4,13,100,0.13,False
+SNV | Combined,SNV,snv,Combined,G2,G3,10,100,0.1,False
+SNV | Combined,SNV,snv,Combined,G2,G5,10,100,0.1,False
+SNV | Combined,SNV,snv,Combined,G2,G7,10,100,0.1,False
+SNV | Combined,SNV,snv,Combined,G2,G9,4,100,0.04,False
+SNV | Combined,SNV,snv,Combined,G2,G11,2,100,0.02,False
+SNV | Combined,SNV,snv,Combined,G2,G1,1,100,0.01,False
+SNV | Combined,SNV,snv,Combined,G3,G6,24,80,0.3,False
+SNV | Combined,SNV,snv,Combined,G3,G4,19,80,0.2375,False
+SNV | Combined,SNV,snv,Combined,G3,G5,17,80,0.2125,False
+SNV | Combined,SNV,snv,Combined,G3,G2,15,80,0.1875,False
+SNV | Combined,SNV,snv,Combined,G3,G3,5,80,0.0625,True
+SNV | Combined,SNV,snv,Combined,G4,G4,97,140,0.6928571428571428,True
+SNV | Combined,SNV,snv,Combined,G4,G6,26,140,0.18571428571428572,False
+SNV | Combined,SNV,snv,Combined,G4,G3,6,140,0.04285714285714286,False
+SNV | Combined,SNV,snv,Combined,G4,G5,6,140,0.04285714285714286,False
+SNV | Combined,SNV,snv,Combined,G4,G2,3,140,0.02142857142857143,False
+SNV | Combined,SNV,snv,Combined,G4,G8,1,140,0.007142857142857143,False
+SNV | Combined,SNV,snv,Combined,G4,G9,1,140,0.007142857142857143,False
+SNV | Combined,SNV,snv,Combined,G5,G4,30,80,0.375,False
+SNV | Combined,SNV,snv,Combined,G5,G2,19,80,0.2375,False
+SNV | Combined,SNV,snv,Combined,G5,G6,17,80,0.2125,False
+SNV | Combined,SNV,snv,Combined,G5,G3,13,80,0.1625,False
+SNV | Combined,SNV,snv,Combined,G5,G5,1,80,0.0125,True
+SNV | Combined,SNV,snv,Combined,G6,G6,84,160,0.525,True
+SNV | Combined,SNV,snv,Combined,G6,G4,30,160,0.1875,False
+SNV | Combined,SNV,snv,Combined,G6,G2,23,160,0.14375,False
+SNV | Combined,SNV,snv,Combined,G6,G3,11,160,0.06875,False
+SNV | Combined,SNV,snv,Combined,G6,G5,10,160,0.0625,False
+SNV | Combined,SNV,snv,Combined,G6,G1,1,160,0.00625,False
+SNV | Combined,SNV,snv,Combined,G6,G9,1,160,0.00625,False
+SNV | Combined,SNV,snv,Combined,G7,G9,16,40,0.4,False
+SNV | Combined,SNV,snv,Combined,G7,G7,13,40,0.325,True
+SNV | Combined,SNV,snv,Combined,G7,G2,5,40,0.125,False
+SNV | Combined,SNV,snv,Combined,G7,G6,5,40,0.125,False
+SNV | Combined,SNV,snv,Combined,G7,G1,1,40,0.025,False
+SNV | Combined,SNV,snv,Combined,G8,G4,17,40,0.425,False
+SNV | Combined,SNV,snv,Combined,G8,G9,8,40,0.2,False
+SNV | Combined,SNV,snv,Combined,G8,G6,7,40,0.175,False
+SNV | Combined,SNV,snv,Combined,G8,G7,6,40,0.15,False
+SNV | Combined,SNV,snv,Combined,G8,G1,2,40,0.05,False
+SNV | Combined,SNV,snv,Combined,G9,G9,19,40,0.475,True
+SNV | Combined,SNV,snv,Combined,G9,G7,10,40,0.25,False
+SNV | Combined,SNV,snv,Combined,G9,G1,5,40,0.125,False
+SNV | Combined,SNV,snv,Combined,G9,G2,3,40,0.075,False
+SNV | Combined,SNV,snv,Combined,G9,G4,1,40,0.025,False
+SNV | Combined,SNV,snv,Combined,G9,G5,1,40,0.025,False
+SNV | Combined,SNV,snv,Combined,G9,G8,1,40,0.025,False

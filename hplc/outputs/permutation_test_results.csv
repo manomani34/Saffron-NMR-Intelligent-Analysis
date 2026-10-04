@@ -1,0 +1,2 @@
+Scenario,PLSComponents,ObservedBalancedAccuracy,NullMean,NullStd,PermutationPValue,FamilywisePValue,Permutations,CVRepeats,FixedSplits,TotalConvergenceWarnings
+AsLS + SNV | Combined,10,0.3701785714285714,0.06541532467532468,0.03079856069857041,0.001996007984031936,0.001996007984031936,500,20,40,0

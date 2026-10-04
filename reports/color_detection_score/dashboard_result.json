@@ -1,0 +1,357 @@
+{
+  "analysis": {
+    "name": "Artificial Color Detection Score",
+    "region": {
+      "lowerPpm": 5.0,
+      "upperPpm": 9.0
+    },
+    "method": "SNV + real-saffron/color reference similarity",
+    "exploratory": true,
+    "validated": false
+  },
+  "references": {
+    "realSaffronCount": 2,
+    "pureArtificialColorCount": 9
+  },
+  "samples": [
+    {
+      "number": 5,
+      "name": "Quinoline yellow",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.9376129375692718,
+      "colorEvidenceRank": 1,
+      "status": "moderate_evidence",
+      "distanceToReal": 93.0942845023895,
+      "distanceToColor": 50.17475482180853,
+      "cosineToReal": -0.24504323411477394,
+      "cosineToColor": 0.5476389764769083
+    },
+    {
+      "number": 7,
+      "name": "Erythrosin",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.8505681559024145,
+      "colorEvidenceRank": 2,
+      "status": "moderate_evidence",
+      "distanceToReal": 88.66389522936046,
+      "distanceToColor": 49.60512437658483,
+      "cosineToReal": -0.12935735834021844,
+      "cosineToColor": 0.5674454391793835
+    },
+    {
+      "number": 3,
+      "name": "Amuranth",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.76279432806375,
+      "colorEvidenceRank": 3,
+      "status": "moderate_evidence",
+      "distanceToReal": 89.19233900776756,
+      "distanceToColor": 53.23651448602163,
+      "cosineToReal": -0.14285980184872646,
+      "cosineToColor": 0.4373048858995467
+    },
+    {
+      "number": 9,
+      "name": "Tartarazin",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.7260847458682176,
+      "colorEvidenceRank": 4,
+      "status": "moderate_evidence",
+      "distanceToReal": 89.45085031974533,
+      "distanceToColor": 54.74279145053293,
+      "cosineToReal": -0.14949433704675683,
+      "cosineToColor": 0.3806266767310068
+    },
+    {
+      "number": 18,
+      "name": "650",
+      "class": "unknown_adulterated_saffron",
+      "colorEvidenceScore": 0.6722208160006912,
+      "colorEvidenceRank": 5,
+      "status": "moderate_evidence",
+      "distanceToReal": 82.75234719119845,
+      "distanceToColor": 51.28278266493442,
+      "cosineToReal": 0.016221289401888148,
+      "cosineToColor": 0.5084642706039015
+    },
+    {
+      "number": 6,
+      "name": "Ponceau 4R (96)",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.6658486202165048,
+      "colorEvidenceRank": 6,
+      "status": "moderate_evidence",
+      "distanceToReal": 88.34883695498888,
+      "distanceToColor": 55.96227869355845,
+      "cosineToReal": -0.1213453778604633,
+      "cosineToColor": 0.3335814542688412
+    },
+    {
+      "number": 8,
+      "name": "Orange GG",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.6596969916782127,
+      "colorEvidenceRank": 7,
+      "status": "moderate_evidence",
+      "distanceToReal": 83.10395648110355,
+      "distanceToColor": 52.01877112409428,
+      "cosineToReal": 0.007843357798301151,
+      "cosineToColor": 0.48197020473067875
+    },
+    {
+      "number": 1,
+      "name": "sunset yellow(127)",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.645412166860633,
+      "colorEvidenceRank": 8,
+      "status": "moderate_evidence",
+      "distanceToReal": 85.91536399837781,
+      "distanceToColor": 54.75644375209457,
+      "cosineToReal": -0.060422671088373035,
+      "cosineToColor": 0.3801057367233298
+    },
+    {
+      "number": 4,
+      "name": "Azorubin",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.602613550641677,
+      "colorEvidenceRank": 9,
+      "status": "moderate_evidence",
+      "distanceToReal": 82.45459934755817,
+      "distanceToColor": 53.54957272088627,
+      "cosineToReal": 0.023288066881529505,
+      "cosineToColor": 0.4256552980867289
+    },
+    {
+      "number": 12,
+      "name": "saffron + Quinoline yellow",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": 0.233765725507866,
+      "colorEvidenceRank": 10,
+      "status": "ambiguous",
+      "distanceToReal": 70.29240401890924,
+      "distanceToColor": 57.389182334907986,
+      "cosineToReal": 0.29017613622344685,
+      "cosineToColor": 0.2772186591836722
+    },
+    {
+      "number": 2,
+      "name": "orange 2",
+      "class": "pure_artificial_color",
+      "colorEvidenceScore": 0.14875880325432897,
+      "colorEvidenceRank": 11,
+      "status": "ambiguous",
+      "distanceToReal": 71.21080210467656,
+      "distanceToColor": 60.860641572818054,
+      "cosineToReal": 0.2715062471768214,
+      "cosineToColor": 0.1341701532076368
+    },
+    {
+      "number": 19,
+      "name": "651",
+      "class": "unknown_adulterated_saffron",
+      "colorEvidenceScore": 0.11782372786770512,
+      "colorEvidenceRank": 12,
+      "status": "ambiguous",
+      "distanceToReal": 67.23013511025835,
+      "distanceToColor": 59.20663427165275,
+      "cosineToReal": 0.35067701660492046,
+      "cosineToColor": 0.20337441383582916
+    },
+    {
+      "number": 20,
+      "name": "saffron + Quinoline yellow 10 %",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": 0.11484616496344902,
+      "colorEvidenceRank": 13,
+      "status": "ambiguous",
+      "distanceToReal": 64.6746673450636,
+      "distanceToColor": 57.59423217851792,
+      "cosineToReal": 0.39910267142649264,
+      "cosineToColor": 0.26900256522649196
+    },
+    {
+      "number": 10,
+      "name": "saffron + sunset yellow(127)",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": 0.0,
+      "colorEvidenceRank": 14,
+      "status": "ambiguous",
+      "distanceToReal": 63.16618321883172,
+      "distanceToColor": 60.446306584013904,
+      "cosineToReal": 0.4268074627298679,
+      "cosineToColor": 0.15168506843032536
+    },
+    {
+      "number": 11,
+      "name": "saffron + orange GG",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": -0.2732507605941987,
+      "colorEvidenceRank": 15,
+      "status": "ambiguous",
+      "distanceToReal": 52.03414702081903,
+      "distanceToColor": 62.52670367501307,
+      "cosineToReal": 0.6110427521840525,
+      "cosineToColor": 0.06253395005793431
+    },
+    {
+      "number": 16,
+      "name": "saffron + orange 2",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": -0.2732507605941987,
+      "colorEvidenceRank": 16,
+      "status": "ambiguous",
+      "distanceToReal": 52.03414702081903,
+      "distanceToColor": 62.52670367501307,
+      "cosineToReal": 0.6110427521840525,
+      "cosineToColor": 0.06253395005793431
+    },
+    {
+      "number": 13,
+      "name": "saffron + orange 2",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": -0.31626817003202035,
+      "colorEvidenceRank": 17,
+      "status": "ambiguous",
+      "distanceToReal": 52.23712833567193,
+      "distanceToColor": 64.0224594084532,
+      "cosineToReal": 0.6080021105765957,
+      "cosineToColor": -0.003427577878464719
+    },
+    {
+      "number": 14,
+      "name": "saffron + Ponceau 4R (96)",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": -0.5792994183845019,
+      "colorEvidenceRank": 18,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 44.41645003413752,
+      "distanceToColor": 67.92856381316487,
+      "cosineToReal": 0.7165963645992078,
+      "cosineToColor": -0.18303627522235574
+    },
+    {
+      "number": 15,
+      "name": "saffron + Erythrosin",
+      "class": "saffron_plus_artificial_color",
+      "colorEvidenceScore": -0.8001176381149437,
+      "colorEvidenceRank": 19,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 27.769637531560708,
+      "distanceToColor": 66.50734875478612,
+      "cosineToReal": 0.8892314560118049,
+      "cosineToColor": -0.1164559590039466
+    },
+    {
+      "number": 26,
+      "name": "648",
+      "class": "small_amount_artificial_color",
+      "colorEvidenceScore": -0.9511382562546508,
+      "colorEvidenceRank": 20,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 17.723947588877895,
+      "distanceToColor": 66.73267541836962,
+      "cosineToReal": 0.9548874558721849,
+      "cosineToColor": -0.12691803914540015
+    },
+    {
+      "number": 22,
+      "name": "445",
+      "class": "artificial_color_adulterated_saffron",
+      "colorEvidenceScore": -0.9728129557994631,
+      "colorEvidenceRank": 21,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 17.565037035268396,
+      "distanceToColor": 67.33476395455602,
+      "cosineToReal": 0.9556930872823317,
+      "cosineToColor": -0.15504704778504383
+    },
+    {
+      "number": 27,
+      "name": "646",
+      "class": "small_amount_artificial_color",
+      "colorEvidenceScore": -1.0134403721750729,
+      "colorEvidenceRank": 22,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 14.327603490789683,
+      "distanceToColor": 67.24695678302473,
+      "cosineToReal": 0.9705263205744455,
+      "cosineToColor": -0.1509290432732517
+    },
+    {
+      "number": 25,
+      "name": "647",
+      "class": "small_amount_artificial_color",
+      "colorEvidenceScore": -1.028441875979475,
+      "colorEvidenceRank": 23,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 12.111070736869587,
+      "distanceToColor": 66.81526146435593,
+      "cosineToReal": 0.9789452780127957,
+      "cosineToColor": -0.1307614305133756
+    },
+    {
+      "number": 24,
+      "name": "544",
+      "class": "artificial_saffron",
+      "colorEvidenceScore": -1.0490802463792366,
+      "colorEvidenceRank": 24,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 12.449784050350404,
+      "distanceToColor": 67.58652498851345,
+      "cosineToReal": 0.9777501340228211,
+      "cosineToColor": -0.16688399602412338
+    },
+    {
+      "number": 23,
+      "name": "372",
+      "class": "artificial_color_adulterated_saffron",
+      "colorEvidenceScore": -1.0542894421496276,
+      "colorEvidenceRank": 25,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 11.551183509724373,
+      "distanceToColor": 67.38982154595409,
+      "cosineToReal": 0.9808485513493083,
+      "cosineToColor": -0.15763189464356428
+    },
+    {
+      "number": 21,
+      "name": "saffron 2",
+      "class": "real_saffron",
+      "colorEvidenceScore": -1.1082288306730645,
+      "colorEvidenceRank": 26,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 6.413799978099326,
+      "distanceToColor": 67.06849753099047,
+      "cosineToReal": 0.994107628531213,
+      "cosineToColor": -0.14257617163778272
+    },
+    {
+      "number": 17,
+      "name": "saffron",
+      "class": "real_saffron",
+      "colorEvidenceScore": -1.1145324152634215,
+      "colorEvidenceRank": 27,
+      "status": "moderate_real_saffron_similarity",
+      "distanceToReal": 6.413799978099326,
+      "distanceToColor": 67.26282486687411,
+      "cosineToReal": 0.994107628531213,
+      "cosineToColor": -0.1516728311714842
+    }
+  ],
+  "interpretation": {
+    "strongEvidenceThreshold": 1.5,
+    "moderateEvidenceThreshold": 0.5,
+    "strongRealSimilarityThreshold": -1.5,
+    "moderateRealSimilarityThreshold": -0.5
+  },
+  "limitations": [
+    "Only two confirmed real-saffron references are available.",
+    "Scores are exploratory and are not calibrated probabilities.",
+    "The score should not be interpreted as an official adulteration percentage."
+  ],
+  "artifacts": {
+    "scoresCsv": "reports\\color_detection_score\\color_detection_scores.csv"
+  },
+  "dashboardReady": true
+}

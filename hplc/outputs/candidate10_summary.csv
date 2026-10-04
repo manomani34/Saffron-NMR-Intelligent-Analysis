@@ -1,0 +1,2 @@
+Model,Preprocessing,Modality,PLSComponents,Samples,Classes,Variables,AccuracyMean,AccuracyStd,BalancedAccuracyMean,BalancedAccuracyStd,MacroF1Mean,MacroF1Std,Splits
+PLS-DA,AsLS + SNV,Combined,10,40,11,5400,0.38625000000000004,0.09934884150151078,0.3712121212121212,0.08641099316398934,0.3204891194663922,0.07571335278245832,40

@@ -1,0 +1,2 @@
+﻿IndependentSamples,SelectedRegions,SelectedRegionList,CommonRegionsBothYears,FeatureCount,PCCount,PCAExplainedVariance,SameRegionMeanDistance,OtherRegionMeanDistance,SameOtherDistanceRatio,NearestSameRegionFraction,PermutationPValue,SimilarityRows,PairwiseRows,NearestNeighborRows,Interpretation
+43,3,"G6,G4,G2",7,401,8,0.955146635220669,1399.5086731865101,1364.8895936095157,1.0253640145980178,0.04,0.7031484257871065,8,450,25,در این داده‌ها شواهد کافی برای پایداری الگوی منطقه‌ای بین دو سال مشاهده نشد.

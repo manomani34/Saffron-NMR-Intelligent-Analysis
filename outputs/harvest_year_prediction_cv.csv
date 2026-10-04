@@ -1,0 +1,2 @@
+﻿AccuracyMean,AccuracyStd,BalancedAccuracyMean,BalancedAccuracyStd,F1MacroMean,F1MacroStd,ChanceAccuracy,ChanceBalancedAccuracy,Samples,CVFolds,CVRepeats,TotalEvaluations,TopK
+0.7208333333333334,0.12546367767895877,0.7111666666666667,0.13364769488923614,0.6921310911310912,0.1445745875092198,0.5,0.5,43,5,10,50,30

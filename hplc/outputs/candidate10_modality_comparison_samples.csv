@@ -1,0 +1,161 @@
+﻿SampleId,ActualClass,Modality,DominantPrediction,Stability,CorrectRate,PredictionCount,IsCorrect
+1,G1,250 nm,G2,0.45,0.0,20,False
+3,G1,250 nm,G4,0.95,0.0,20,False
+4,G2,250 nm,G8,0.4,0.0,20,False
+5,G2,250 nm,G10,0.75,0.2,20,False
+6,G2,250 nm,G2,0.75,0.75,20,True
+7,G2,250 nm,G2,0.9,0.9,20,True
+8,G2,250 nm,G6,0.85,0.05,20,False
+9,G3,250 nm,G6,0.45,0.25,20,False
+10,G3,250 nm,G4,0.45,0.1,20,False
+11,G3,250 nm,G4,0.7,0.0,20,False
+12,G3,250 nm,G6,0.75,0.0,20,False
+13,G4,250 nm,G3,0.4,0.0,20,False
+14,G4,250 nm,G4,0.65,0.65,20,True
+15,G4,250 nm,G4,0.5,0.5,20,True
+16,G4,250 nm,G4,0.6,0.6,20,True
+17,G4,250 nm,G6,0.45,0.4,20,False
+18,G4,250 nm,G8,0.8,0.05,20,False
+19,G4,250 nm,G3,0.6,0.1,20,False
+20,G5,250 nm,G6,0.6,0.0,20,False
+21,G5,250 nm,G1,0.5,0.0,20,False
+22,G5,250 nm,G6,0.35,0.0,20,False
+23,G5,250 nm,G11,0.9,0.0,20,False
+24,G6,250 nm,G3,0.5,0.35,20,False
+26,G6,250 nm,G6,0.55,0.55,20,True
+27,G6,250 nm,G6,0.6,0.6,20,True
+28,G6,250 nm,G6,0.55,0.55,20,True
+30,G6,250 nm,G6,0.8,0.8,20,True
+31,G6,250 nm,G4,0.7,0.0,20,False
+32,G6,250 nm,G6,0.55,0.55,20,True
+33,G6,250 nm,G6,0.7,0.7,20,True
+34,G7,250 nm,G6,0.5,0.15,20,False
+36,G7,250 nm,G9,0.3,0.1,20,False
+37,G8,250 nm,G6,0.4,0.0,20,False
+38,G8,250 nm,G4,0.8,0.0,20,False
+39,G9,250 nm,G9,0.6,0.6,20,True
+40,G9,250 nm,G2,0.5,0.0,20,False
+41,G10,250 nm,G2,0.5,0.4,20,False
+42,G10,250 nm,G2,0.6,0.3,20,False
+43,G11,250 nm,G11,0.95,0.95,20,True
+44,G11,250 nm,G11,1.0,1.0,20,True
+1,G1,308 nm,G8,0.55,0.0,20,False
+3,G1,308 nm,G4,1.0,0.0,20,False
+4,G2,308 nm,G7,0.35,0.1,20,False
+5,G2,308 nm,G4,0.4,0.05,20,False
+6,G2,308 nm,G2,0.8,0.8,20,True
+7,G2,308 nm,G2,0.8,0.8,20,True
+8,G2,308 nm,G6,0.75,0.05,20,False
+9,G3,308 nm,G3,0.55,0.55,20,True
+10,G3,308 nm,G3,0.5,0.5,20,True
+11,G3,308 nm,G4,0.75,0.0,20,False
+12,G3,308 nm,G6,0.4,0.0,20,False
+13,G4,308 nm,G1,0.35,0.0,20,False
+14,G4,308 nm,G4,0.75,0.75,20,True
+15,G4,308 nm,G4,0.95,0.95,20,True
+16,G4,308 nm,G4,0.95,0.95,20,True
+17,G4,308 nm,G6,0.4,0.35,20,False
+18,G4,308 nm,G8,0.8,0.05,20,False
+19,G4,308 nm,G4,0.7,0.7,20,True
+20,G5,308 nm,G3,0.6,0.0,20,False
+21,G5,308 nm,G4,0.7,0.0,20,False
+22,G5,308 nm,G4,0.45,0.05,20,False
+23,G5,308 nm,G2,0.45,0.0,20,False
+24,G6,308 nm,G6,0.55,0.55,20,True
+26,G6,308 nm,G4,0.8,0.0,20,False
+27,G6,308 nm,G4,0.35,0.3,20,False
+28,G6,308 nm,G6,0.75,0.75,20,True
+30,G6,308 nm,G6,0.6,0.6,20,True
+31,G6,308 nm,G4,0.85,0.0,20,False
+32,G6,308 nm,G2,0.45,0.4,20,False
+33,G6,308 nm,G6,0.6,0.6,20,True
+34,G7,308 nm,G7,0.8,0.8,20,True
+36,G7,308 nm,G8,0.5,0.5,20,False
+37,G8,308 nm,G7,0.5,0.0,20,False
+38,G8,308 nm,G4,0.85,0.0,20,False
+39,G9,308 nm,G9,1.0,1.0,20,True
+40,G9,308 nm,G9,1.0,1.0,20,True
+41,G10,308 nm,G2,0.5,0.0,20,False
+42,G10,308 nm,G2,0.75,0.1,20,False
+43,G11,308 nm,G2,0.45,0.1,20,False
+44,G11,308 nm,G2,0.75,0.1,20,False
+1,G1,440 nm,G9,0.4,0.0,20,False
+3,G1,440 nm,G4,0.95,0.0,20,False
+4,G2,440 nm,G3,0.35,0.0,20,False
+5,G2,440 nm,G10,0.55,0.05,20,False
+6,G2,440 nm,G2,0.8,0.8,20,True
+7,G2,440 nm,G2,0.75,0.75,20,True
+8,G2,440 nm,G6,0.9,0.0,20,False
+9,G3,440 nm,G3,0.4,0.4,20,True
+10,G3,440 nm,G3,0.25,0.25,20,True
+11,G3,440 nm,G4,0.7,0.0,20,False
+12,G3,440 nm,G6,0.75,0.0,20,False
+13,G4,440 nm,G3,0.4,0.0,20,False
+14,G4,440 nm,G6,0.45,0.35,20,False
+15,G4,440 nm,G4,0.5,0.5,20,True
+16,G4,440 nm,G4,0.5,0.5,20,True
+17,G4,440 nm,G6,0.45,0.15,20,False
+18,G4,440 nm,G8,0.8,0.1,20,False
+19,G4,440 nm,G3,0.45,0.2,20,False
+20,G5,440 nm,G3,0.6,0.0,20,False
+21,G5,440 nm,G1,0.25,0.15,20,False
+22,G5,440 nm,G4,0.45,0.0,20,False
+23,G5,440 nm,G11,0.65,0.0,20,False
+24,G6,440 nm,G6,0.8,0.8,20,True
+26,G6,440 nm,G6,0.6,0.6,20,True
+27,G6,440 nm,G6,0.55,0.55,20,True
+28,G6,440 nm,G3,0.65,0.25,20,False
+30,G6,440 nm,G6,0.85,0.85,20,True
+31,G6,440 nm,G4,0.6,0.1,20,False
+32,G6,440 nm,G6,0.8,0.8,20,True
+33,G6,440 nm,G6,0.8,0.8,20,True
+34,G7,440 nm,G7,0.75,0.75,20,True
+36,G7,440 nm,G7,0.9,0.9,20,True
+37,G8,440 nm,G3,0.3,0.0,20,False
+38,G8,440 nm,G4,0.9,0.0,20,False
+39,G9,440 nm,G9,1.0,1.0,20,True
+40,G9,440 nm,G9,1.0,1.0,20,True
+41,G10,440 nm,G2,0.45,0.15,20,False
+42,G10,440 nm,G2,0.55,0.15,20,False
+43,G11,440 nm,G11,0.5,0.5,20,True
+44,G11,440 nm,G5,0.45,0.45,20,False
+1,G1,Combined,G7,0.7,0.0,20,False
+3,G1,Combined,G4,1.0,0.0,20,False
+4,G2,Combined,G1,0.45,0.0,20,False
+5,G2,Combined,G10,0.4,0.05,20,False
+6,G2,Combined,G2,0.95,0.95,20,True
+7,G2,Combined,G2,0.95,0.95,20,True
+8,G2,Combined,G6,0.85,0.05,20,False
+9,G3,Combined,G3,0.5,0.5,20,True
+10,G3,Combined,G3,0.55,0.55,20,True
+11,G3,Combined,G4,0.75,0.0,20,False
+12,G3,Combined,G6,0.75,0.0,20,False
+13,G4,Combined,G3,0.4,0.0,20,False
+14,G4,Combined,G4,0.5,0.5,20,True
+15,G4,Combined,G4,0.75,0.75,20,True
+16,G4,Combined,G4,0.75,0.75,20,True
+17,G4,Combined,G4,0.6,0.6,20,True
+18,G4,Combined,G8,0.8,0.05,20,False
+19,G4,Combined,G4,0.5,0.5,20,True
+20,G5,Combined,G3,0.8,0.0,20,False
+21,G5,Combined,G2,0.35,0.0,20,False
+22,G5,Combined,G6,0.5,0.0,20,False
+23,G5,Combined,G11,0.45,0.0,20,False
+24,G6,Combined,G6,0.8,0.8,20,True
+26,G6,Combined,G6,0.65,0.65,20,True
+27,G6,Combined,G6,0.45,0.45,20,True
+28,G6,Combined,G6,0.5,0.5,20,True
+30,G6,Combined,G6,0.75,0.75,20,True
+31,G6,Combined,G4,0.9,0.0,20,False
+32,G6,Combined,G2,0.5,0.4,20,False
+33,G6,Combined,G6,0.75,0.75,20,True
+34,G7,Combined,G7,0.6,0.6,20,True
+36,G7,Combined,G8,0.5,0.4,20,False
+37,G8,Combined,G7,0.6,0.0,20,False
+38,G8,Combined,G4,0.85,0.0,20,False
+39,G9,Combined,G9,1.0,1.0,20,True
+40,G9,Combined,G9,1.0,1.0,20,True
+41,G10,Combined,G2,0.45,0.0,20,False
+42,G10,Combined,G2,0.85,0.1,20,False
+43,G11,Combined,G11,0.4,0.4,20,True
+44,G11,Combined,G11,0.8,0.8,20,True

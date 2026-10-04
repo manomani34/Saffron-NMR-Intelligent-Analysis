@@ -1,0 +1,11 @@
+Item,Value,Interpretation
+Raw records,44,All workbook sample records
+Exact duplicate pairs,4,"1/2; 24/25; 28/29; 34/35"
+Independent records,40,"44 records minus four duplicate extra rows"
+Geographical groups,11,Authoritative mapping groups
+Time points per wavelength,1800,"Full workbook range"
+Time range (min),0.01666667-30.0,Full statistical analysis range
+Scaled-copy relation,39->40 at 308 nm,Sample 40 = Sample 39 x 0.53 in 308 nm
+Invalid signal,Sample 32 / 308 nm,1 invalid point; handled by in-fold imputation
+Validation strategy,Repeated provenance-aware StratifiedGroupKFold,2 folds x 20 repeats
+Final framing,Exploratory geographic characterization,Not a validated operational 11-group classifier

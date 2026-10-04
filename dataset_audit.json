@@ -1,0 +1,59 @@
+{
+  "dataset": {
+    "path": "data\\raw\\saffron.csv",
+    "size_bytes": 3556981,
+    "sha256": "a870459e19d5d4de07d3884e7dfc6630045c0c66059fc2e405ed941775886613",
+    "rows": 44,
+    "columns": 9516
+  },
+  "structure": {
+    "metadata_columns": [
+      "name",
+      "group"
+    ],
+    "spectral_column_count": 9514
+  },
+  "sample_ids": {
+    "invalid_count": 0,
+    "duplicate_ids": []
+  },
+  "groups": {
+    "G1": 3,
+    "G10": 2,
+    "G11": 2,
+    "G2": 5,
+    "G3": 4,
+    "G4": 7,
+    "G5": 4,
+    "G6": 10,
+    "G7": 3,
+    "G8": 2,
+    "G9": 2
+  },
+  "duplicates": {
+    "exact_duplicate_spectra": 1,
+    "duplicate_spectrum_ids": [
+      34,
+      35
+    ],
+    "duplicate_original_names": []
+  },
+  "spectral_axis": {
+    "min_ppm": 0.500998,
+    "max_ppm": 10.4999,
+    "bin_width_mean": 0.0010510776831703986,
+    "bin_width_min": 0.0009699999999988052,
+    "bin_width_max": 0.2410000000000001
+  },
+  "harvest_years": {},
+  "compatibility": {
+    "required_columns": true,
+    "spectral_columns_found": true,
+    "spectral_values_numeric": true,
+    "spectral_values_finite": true,
+    "spectral_axis_valid": true,
+    "bin_width_approximately_0_001": false,
+    "sample_ids_valid": true
+  },
+  "overall_compatible": false
+}
