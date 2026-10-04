@@ -1,10 +1,14 @@
 # -*- mode: python ; coding: utf-8 -*-
+from PyInstaller.utils.hooks import collect_submodules
 from PyInstaller.utils.hooks import collect_all
 
-datas = [('dashboard.py', '.'), ('README.md', '.'), ('run_output.txt', '.'), ('docs', 'docs'), ('data', 'data'), ('reports', 'reports'), ('outputs', 'outputs'), ('pca_scores.png', '.'), ('pca_scree_plot.png', '.'), ('novelty_detection.png', '.'), ('shap_summary.png', '.'), ('robust_evaluation_summary.csv', '.'), ('robust_evaluation_results.csv', '.'), ('novelty_detection_results.csv', '.'), ('sample_predictions.csv', '.'), ('decision_engine_results.csv', '.'), ('shap_feature_importance.csv', '.'), ('final_report.csv', '.')]
+datas = [('dashboard.py', '.'), ('intro.py', '.'), ('pages', 'pages'), ('hplc', 'hplc'), ('components', 'components'), ('README.md', '.'), ('run_output.txt', '.'), ('docs', 'docs'), ('data', 'data'), ('reports', 'reports'), ('outputs', 'outputs'), ('pca_scores.png', '.'), ('pca_scree_plot.png', '.'), ('novelty_detection.png', '.'), ('shap_summary.png', '.'), ('robust_evaluation_summary.csv', '.'), ('robust_evaluation_results.csv', '.'), ('novelty_detection_results.csv', '.'), ('sample_predictions.csv', '.'), ('decision_engine_results.csv', '.'), ('shap_feature_importance.csv', '.'), ('final_report.csv', '.')]
 binaries = []
 hiddenimports = []
+hiddenimports += collect_submodules('components')
 tmp_ret = collect_all('streamlit')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+tmp_ret = collect_all('sklearn')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 

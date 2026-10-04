@@ -1,6 +1,7 @@
 from pathlib import Path
 import pandas as pd
 import streamlit as st
+from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score
 
 from components.common import apply_page_style, get_dataset_info
 
@@ -521,6 +522,248 @@ else:
     )
 
 
+# ============================================================
+# OOF EVALUATION
+# ============================================================
+
+st.divider()
+
+st.subheader(
+    "🔄 ارزیابی OOF مدل منشأ"
+)
+
+st.markdown(
+    """
+    ارزیابی **OOF (Out-of-Fold)** برای هر نمونه یک پیش‌بینی
+    خارج از داده آموزشی همان نمونه تولید می‌کند.
+
+    این ارزیابی از فایل `sample_predictions.csv` استفاده می‌کند.
+    بنابراین نتایج OOF با ارزیابی Robust یکسان نیستند، زیرا
+    روش نمونه‌گیری و تعداد تکرارهای آن‌ها متفاوت است.
+    """
+)
+
+# ------------------------------------------------------------
+# Load OOF predictions
+# ------------------------------------------------------------
+
+oof_predictions = read_csv(
+    str(PREDICTIONS_PATH)
+)
+
+if oof_predictions.empty:
+
+    st.warning(
+        "فایل sample_predictions.csv موجود نیست یا خالی است."
+    )
+
+else:
+
+    required_oof_columns = {
+        "ActualGroup",
+        "PredictedGroup",
+    }
+
+    if not required_oof_columns.issubset(
+        oof_predictions.columns
+    ):
+
+        missing_columns = (
+            required_oof_columns
+            - set(oof_predictions.columns)
+        )
+
+        st.warning(
+            "محاسبه OOF امکان پذیر نیست. "
+            f"ستون‌های زیر در sample_predictions.csv موجود نیستند: "
+            f"{', '.join(sorted(missing_columns))}"
+        )
+
+    else:
+
+        # ----------------------------------------------------
+        # Prepare actual / predicted labels
+        # ----------------------------------------------------
+
+        oof_actual = (
+            oof_predictions["ActualGroup"]
+            .astype(str)
+            .str.strip()
+        )
+
+        oof_predicted = (
+            oof_predictions["PredictedGroup"]
+            .astype(str)
+            .str.strip()
+        )
+
+        # ----------------------------------------------------
+        # Calculate OOF metrics
+        # ----------------------------------------------------
+
+        oof_accuracy = accuracy_score(
+            oof_actual,
+            oof_predicted,
+        )
+
+        oof_balanced_accuracy = (
+            balanced_accuracy_score(
+                oof_actual,
+                oof_predicted,
+            )
+        )
+
+        oof_macro_f1 = f1_score(
+            oof_actual,
+            oof_predicted,
+            average="macro",
+            zero_division=0,
+        )
+
+        oof_sample_count = len(
+            oof_predictions
+        )
+
+        # ----------------------------------------------------
+        # Detect fold information if available
+        # ----------------------------------------------------
+
+        possible_fold_columns = [
+            "Fold",
+            "fold",
+            "CVFold",
+            "cv_fold",
+            "FoldID",
+            "fold_id",
+        ]
+
+        oof_fold_column = next(
+            (
+                column
+                for column in possible_fold_columns
+                if column in oof_predictions.columns
+            ),
+            None,
+        )
+
+        if oof_fold_column is not None:
+
+            try:
+                oof_fold_count = (
+                    oof_predictions[
+                        oof_fold_column
+                    ]
+                    .dropna()
+                    .nunique()
+                )
+            except Exception:
+                oof_fold_count = 2
+
+        else:
+
+            # Current pipeline uses 2-fold OOF.
+            oof_fold_count = 2
+
+        # ----------------------------------------------------
+        # OOF KPI cards
+        # ----------------------------------------------------
+
+        oof_col1, oof_col2, oof_col3 = (
+            st.columns(3)
+        )
+
+        with oof_col1:
+
+            st.metric(
+                "OOF Accuracy",
+                f"{oof_accuracy * 100:.2f}%",
+            )
+
+        with oof_col2:
+
+            st.metric(
+                "OOF Balanced Accuracy",
+                f"{oof_balanced_accuracy * 100:.2f}%",
+            )
+
+        with oof_col3:
+
+            st.metric(
+                "OOF Macro F1",
+                f"{oof_macro_f1 * 100:.2f}%",
+            )
+
+        # ----------------------------------------------------
+        # OOF methodology
+        # ----------------------------------------------------
+
+        st.markdown(
+            "### مشخصات ارزیابی OOF"
+        )
+
+        method_col1, method_col2 = (
+            st.columns(2)
+        )
+
+        with method_col1:
+
+            st.metric(
+                "تعداد نمونه‌های OOF",
+                oof_sample_count,
+            )
+
+        with method_col2:
+
+            st.metric(
+                "تعداد Fold",
+                oof_fold_count,
+            )
+
+        # ----------------------------------------------------
+        # OOF summary table
+        # ----------------------------------------------------
+
+        oof_summary = pd.DataFrame(
+            {
+                "Metric": [
+                    "Accuracy",
+                    "Balanced Accuracy",
+                    "Macro F1",
+                ],
+                "OOF Value": [
+                    f"{oof_accuracy * 100:.2f}%",
+                    f"{oof_balanced_accuracy * 100:.2f}%",
+                    f"{oof_macro_f1 * 100:.2f}%",
+                ],
+            }
+        )
+
+        st.dataframe(
+            oof_summary,
+            hide_index=True,
+            use_container_width=True,
+        )
+
+        # ----------------------------------------------------
+        # Important methodological note
+        # ----------------------------------------------------
+
+        st.info(
+            """
+            **نکته روش شناسی**
+
+            ارزیابی Robust و OOF دو روش ارزیابی متفاوت هستند:
+
+            - **Robust:** ارزیابی 2-Fold Stratified CV به صورت تکرارشده
+              در 20 تکرار
+            - **OOF:** یک پیش‌بینی Out-of-Fold برای هر نمونه در یک
+              ارزیابی 2-Fold
+
+            بنابراین انتظار نمی‌رود اعداد Robust و OOF دقیقاً
+            یکسان باشند. اختلاف آن‌ها باید با توجه به روش
+            نمونه‌گیری و تعداد کم نمونه‌ها تفسیر شود.
+            """
+        )
 st.divider()
 
 

@@ -22,7 +22,13 @@ python -m PyInstaller ^
     --onedir ^
     --name SaffronNMRDashboard ^
     --collect-all streamlit ^
+    --collect-all sklearn ^
+    --collect-submodules components ^
     --add-data "dashboard.py;." ^
+    --add-data "intro.py;." ^
+    --add-data "pages;pages" ^
+    --add-data "hplc;hplc" ^
+    --add-data "components;components" ^
     --add-data "README.md;." ^
     --add-data "run_output.txt;." ^
     --add-data "docs;docs" ^

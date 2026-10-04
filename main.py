@@ -161,16 +161,19 @@ def main():
         "\nEngineered features saved to: "
         "engineered_features.csv"
     )
+
     print(
         f"Engineered feature rows: "
         f"{len(engineered_features_output)}"
     )
+
     print(
         f"Engineered feature columns: "
         f"{len(engineered_features_output.columns)}"
     )
 
     print("\nSampleId preview:")
+
     print(
         engineered_features_output[["SampleId"]]
         .head(10)
@@ -184,12 +187,134 @@ def main():
     # The selected Top-K is passed into the final OOF path,
     # so the two paths cannot silently use different Top-K values.
 
+    # --------------------------------------------------
+    # Diagnostic: BEFORE Robust Evaluation
+    # --------------------------------------------------
+
+    print("\n" + "=" * 70)
+    print("DATA CHECK - BEFORE ROBUST EVALUATION")
+    print("=" * 70)
+
+    print(
+        "engineered_features shape:",
+        engineered_features.shape,
+    )
+
+    print(
+        "y shape:",
+        y.shape,
+    )
+
+    print("\nGroup distribution:")
+    print(
+        y.value_counts()
+        .sort_index()
+        .to_string()
+    )
+
+    print("\nengineered_features index:")
+    print(
+        engineered_features.index.tolist()
+    )
+
+    print("\ny index:")
+    print(
+        y.index.tolist()
+    )
+
+    print("\nIndex aligned:")
+    print(
+        engineered_features.index.equals(
+            y.index
+        )
+    )
+
+    print("\nFeature columns count:")
+    print(
+        len(engineered_features.columns)
+    )
+
+    print("\nFirst 20 feature columns:")
+    print(
+        engineered_features.columns[:20].tolist()
+    )
+
+    print("\nFeature sample:")
+    print(
+        engineered_features.iloc[:3, :5]
+    )
+
+    # --------------------------------------------------
+    # Robust Evaluation
+    # --------------------------------------------------
+
     robust_summary = evaluate_robust_models(
         engineered_features,
         y,
         output_path="robust_evaluation_results.csv",
         summary_path="robust_evaluation_summary.csv",
     )
+
+    # --------------------------------------------------
+    # Diagnostic: AFTER Robust Evaluation
+    # --------------------------------------------------
+
+    print("\n" + "=" * 70)
+    print("DATA CHECK - AFTER ROBUST EVALUATION")
+    print("=" * 70)
+
+    print(
+        "engineered_features shape:",
+        engineered_features.shape,
+    )
+
+    print(
+        "y shape:",
+        y.shape,
+    )
+
+    print("\nGroup distribution:")
+    print(
+        y.value_counts()
+        .sort_index()
+        .to_string()
+    )
+
+    print("\nengineered_features index:")
+    print(
+        engineered_features.index.tolist()
+    )
+
+    print("\ny index:")
+    print(
+        y.index.tolist()
+    )
+
+    print("\nIndex aligned:")
+    print(
+        engineered_features.index.equals(
+            y.index
+        )
+    )
+
+    print("\nFeature columns count:")
+    print(
+        len(engineered_features.columns)
+    )
+
+    print("\nFirst 20 feature columns:")
+    print(
+        engineered_features.columns[:20].tolist()
+    )
+
+    print("\nFeature sample:")
+    print(
+        engineered_features.iloc[:3, :5]
+    )
+
+    # --------------------------------------------------
+    # Validate Robust result
+    # --------------------------------------------------
 
     if robust_summary.empty:
         raise RuntimeError(
@@ -203,6 +328,7 @@ def main():
     print("\n" + "=" * 70)
     print("FINAL ORIGIN CONFIGURATION")
     print("=" * 70)
+
     print("Model             : XGBoost")
     print(f"Selected Top-K    : {selected_top_k}")
     print("Selection source  : Robust Evaluation")

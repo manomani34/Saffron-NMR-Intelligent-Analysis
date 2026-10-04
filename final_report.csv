@@ -18,21 +18,21 @@ Harvest Year Effect,Chance Balanced Accuracy,0.5
 Harvest Year Effect,Within-Region Permutation P-Value,0.1704147926036981
 Harvest Year Effect,Interpretation,EVIDENCE OF A POSSIBLE HARVEST-YEAR EFFECT: at least one independent diagnostic indicates year-related spectral structure.
 Origin Model,Selected TopK,50
-Origin Model,Accuracy Mean,0.2023255813953488
-Origin Model,Accuracy Std,0.0459575318217713
-Origin Model,Balanced Accuracy Mean,0.1304004329004328
-Origin Model,Balanced Accuracy Std,0.0353628514438055
-Origin Model,Macro F1 Mean,0.1120222776652409
-Origin Model,Macro F1 Std,0.034093372900591
+Origin Model,Accuracy Mean,0.1732558139534883
+Origin Model,Accuracy Std,0.0508810535909829
+Origin Model,Balanced Accuracy Mean,0.1287554112554112
+Origin Model,Balanced Accuracy Std,0.0534856958561372
+Origin Model,Macro F1 Mean,0.1133210213464541
+Origin Model,Macro F1 Std,0.047661966163306
 Origin Model,Chance Balanced Accuracy,0.0909090909090909
 Origin Model,Above Chance,True
 Origin Model,Operational Status,NOT RELIABLE
 Cross-Year Origin,Best Direction,1404 -> 1394
 Cross-Year Origin,Best Model,XGBoost
-Cross-Year Origin,Best TopK,30
-Cross-Year Origin,Accuracy,0.2142857142857142
-Cross-Year Origin,Balanced Accuracy,0.1904761904761904
-Cross-Year Origin,Macro F1,0.1428571428571428
+Cross-Year Origin,Best TopK,20
+Cross-Year Origin,Accuracy,0.2857142857142857
+Cross-Year Origin,Balanced Accuracy,0.2619047619047619
+Cross-Year Origin,Macro F1,0.238095238095238
 Cross-Year Origin,Interpretation,"Weak and highly constrained by small sample size, class imbalance, and incomplete Region × Year coverage."
 Novelty / OOD,Novel Samples,1
 Novelty / OOD,Within Reference Domain,42

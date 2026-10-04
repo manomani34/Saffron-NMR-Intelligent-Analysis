@@ -12,3 +12,12 @@ cd I:\saffron_nmr\dist\SaffronNMRDashboard
 .\SaffronNMRDashboard.exe
 
 tree /F /A > structure.txt
+
+python main.py > run_output.txt 2>&1
+
+
+cd "I:\Saffron Project\saffron_nmr-1.0.0"
+.\build_hplc_dashboard.bat
+
+cd ".\dist\SaffronHPLCDashboard"
+.\SaffronHPLCDashboard.exe
